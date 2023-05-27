@@ -406,12 +406,6 @@
     (uuid f9bd525c-3d77-44b6-bb26-81e832ce8c94)
   )
 
-  (rectangle (start 102.87 53.34) (end 165.1 115.57)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid d9cd4d97-66e5-4425-a82c-20a0a2e1efe8)
-  )
-
   (text "ADC\n" (at 118.11 71.12 0)
     (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
     (uuid fc692fab-077d-4ac9-b825-a2b1f053cf18)
@@ -462,7 +456,7 @@
   (symbol (lib_id "Analog_ADC:MCP3008") (at 129.54 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37a6f745-80e7-4cf6-9301-6ab189e47912)
-    (property "Reference" "U501" (at 124.3583 107.1499 0)
+    (property "Reference" "U101" (at 124.3583 107.1499 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MCP3008" (at 124.3583 105.2289 0)
@@ -613,6 +607,31 @@
     (instances
       (project "solar-panel"
         (path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 166.37 52.07) (size 35.56 5.08) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 199 255 204 1.0000))
+    (uuid 6b0b648d-c14f-4b9c-9278-56619c685686)
+    (property "Sheetname" "Solar Cells" (at 166.37 51.3584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pv_cells.kicad_sch" (at 166.37 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "PV_V+" output (at 201.93 54.61 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a4671a33-f70c-498f-9586-0590b7c33616)
+    )
+    (pin "PV_V-" input (at 166.37 54.61 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 715ff7d9-1d19-4661-842f-343fbb0e6314)
+    )
+    (instances
+      (project "solar-panel"
+        (path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a" (page "6"))
       )
     )
   )
