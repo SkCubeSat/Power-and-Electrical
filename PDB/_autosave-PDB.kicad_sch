@@ -1,0 +1,43 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid aea7c083-a1ab-437a-a7d4-8485462b930a)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 109.22 60.325) (size 24.13 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 322377eb-7473-4ea8-aebd-55424a9285b0)
+    (property "Sheetname" "Inhibits" (at 109.22 59.6134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "inhibits.kicad_sch" (at 109.22 77.4196 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "Batt-" bidirectional (at 109.22 73.66 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 19a73758-9e5d-4491-a5c6-b3484c6c80e0)
+    )
+    (pin "Bat+" bidirectional (at 109.22 66.04 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f362e1b1-f782-4ccb-a0e4-382ed3e85f42)
+    )
+    (pin "UnRegulated" bidirectional (at 133.35 69.85 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 31c7c72d-67bd-4299-96c2-1b09a62f72c5)
+    )
+    (instances
+      (project "PDB"
+        (path "/aea7c083-a1ab-437a-a7d4-8485462b930a" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
