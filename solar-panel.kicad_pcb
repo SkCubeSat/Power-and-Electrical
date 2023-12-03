@@ -879,7 +879,7 @@
 
   (footprint "MountingHole:MountingHole_2.7mm" (layer "F.Cu")
     (tstamp 103f3d79-3c64-4a40-bde6-debc9217506f)
-    (at 50.8 185.42)
+    (at 48.26 185.42)
     (descr "Mounting Hole 2.7mm, no annular")
     (tags "mounting hole 2.7mm no annular")
     (property "Sheetfile" "solar-panel.kicad_sch")
