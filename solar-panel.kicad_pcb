@@ -879,7 +879,7 @@
 
   (footprint "MountingHole:MountingHole_2.7mm" (layer "F.Cu")
     (tstamp 103f3d79-3c64-4a40-bde6-debc9217506f)
-    (at 48.4796 184.13)
+    (at 50.8 185.42)
     (descr "Mounting Hole 2.7mm, no annular")
     (tags "mounting hole 2.7mm no annular")
     (property "Sheetfile" "solar-panel.kicad_sch")
@@ -11443,7 +11443,7 @@
 
   (footprint "MountingHole:MountingHole_2.7mm" (layer "F.Cu")
     (tstamp 8c4c282b-5038-4718-8f54-1dccc386cf1d)
-    (at 377.22 106.84)
+    (at 317.5 111.76)
     (descr "Mounting Hole 2.7mm, no annular")
     (tags "mounting hole 2.7mm no annular")
     (property "Sheetfile" "solar-panel.kicad_sch")
@@ -12310,7 +12310,7 @@
 
   (footprint "MountingHole:MountingHole_2.7mm" (layer "F.Cu")
     (tstamp a51df00e-89c8-4b3f-9a94-0838ca0cda6b)
-    (at 188.859 106.389)
+    (at 195.58 111.76)
     (descr "Mounting Hole 2.7mm, no annular")
     (tags "mounting hole 2.7mm no annular")
     (property "Sheetfile" "solar-panel.kicad_sch")
@@ -12385,7 +12385,7 @@
 
   (footprint "MountingHole:MountingHole_2.7mm" (layer "F.Cu")
     (tstamp a5d273e4-188b-44ee-83df-501ef8682836)
-    (at 42.729 106.389)
+    (at 88.9 111.76)
     (descr "Mounting Hole 2.7mm, no annular")
     (tags "mounting hole 2.7mm no annular")
     (property "Sheetfile" "solar-panel.kicad_sch")
