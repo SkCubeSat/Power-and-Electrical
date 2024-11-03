@@ -132,9 +132,9 @@ int test_counter = 0; /* counter for the current test */
 int rbCount = 0; /* stores number of bytes to get from EPS */
 int tErr; /* stores last return value of endTransmission */
 
-const int leftButtonPin = 2;
-const int selectButtonPin = 3;
-const int rightButtonPin = 4;
+const int leftButtonPin = 4;
+const int selectButtonPin = 5;
+const int rightButtonPin = 6;
 
 bool leftButtonState = false;
 bool rightButtonState = false;
