@@ -139,6 +139,7 @@ const int rightButtonPin = 4;
 bool leftButtonState = false;
 bool rightButtonState = false;
 bool selectButtonState = false;
+bool rpacket_print_flag = false;
 
 enum state {READ_INPUT, READ_OUTPUT};
 
@@ -235,17 +236,28 @@ void getInputs(byte output[2], int cmd_id)
   return;
 }
 
-void read_output() {
+void read_output(int cmd) {
   byte tmp;
+  int rec_idx = Wire.available();
 
   if (digitalRead(selectButtonPin) == HIGH && selectButtonState == false) {
       Serial.println();
       prog_state = READ_INPUT;
   }
   
-  if (Wire.available()){
+  if (rec_idx){
     tmp = Wire.read();
-    rec_packet[Wire.available()] = tmp;
+
+    rec_packet[rec_idx] = tmp;
+  }
+  if (!rec_idx && rpacket_print_flag){
+    Serial.print("Received: [");
+    for (int i=0; i<returnLen[cmd]; i++){
+      if (i > 0 ) Serial.print(", ");
+      Serial.print("0x");
+      Serial.print(rec_packet[i], HEX);
+    }
+    Serial.println("]");
   }
 }
 
@@ -278,9 +290,10 @@ void loop() {
     Wire.requestFrom(I2CADDR, 4);
 
     prog_state = READ_OUTPUT;
+    rpacket_print_flag = false;
   }
   else if (prog_state = READ_OUTPUT){
-    read_output();
+    read_output(cmd);
   }
   /* run func to write command + inputs to I2C line */
 
