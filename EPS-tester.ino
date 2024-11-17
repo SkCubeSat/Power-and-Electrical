@@ -12,84 +12,12 @@
 
 #include <Wire.h>
 
-#define NA 0x00
-#define ARG 0xFF
-
-#define TELEMETRY_CMD_ID 5
-
-#define DEVICE 2
+#define CMDCOUNT 26
 
 #define I2CADDR 0x2B
 
-#define N_FUNCS 26
-
-#define invalidOperation WRITE([0x02, NA] 2);
-
-#define getStatus WRITE([0x01, NA], 2); rbCount = 2;
-#define getError WRITE([0x03, NA], 2); rbCount = 2;
-#define getChsum WRITE([0x05, NA], 2); rbCount = 2;
-#define manualReset WRITE([0x80, NA], 2); rbCount = 0;
-#define getTelemetry(arg1, arg2) WRITE([0x10, arg1, arg2], 3); rbCount = 2;
-#define setCWatchPeriod(arg) WRITE([0x21, arg], 2); rbCount = 0;
-#define getCWatchPeriod WRITE([0x20, NA], 2); rbCount = 2;
-#define resetCWatch WRITE([0x22, NA], 2); rbCount = 0;
-#define getAutoSoftResets WRITE([0x32, NA], 2); rbCount = 2;
-#define getCWatchResets WRITE([0x34, NA], 2); rbCount = 2;
-#define allPdmSetOn WRITE([0x40, NA], 2); rbCount = 0;
-#define allPdmSetOff WRITE([0x41, NA], 2); rbCount = 0;
-#define allPdmGetActual WRITE([0x42, NA], 2); rbCount = 4;
-#define allPdmGetExpect WRITE([0x43, NA], 2); rbCount = 4;
-#define allPdmGetInit WRITE([0x44, NA], 2); rbCount = 4;
-#define allPdmInit WRITE([0x45, NA], 2); rbCount = 0;
-#define pdmSetOn(Pdm) WRITE([0x50, Pdm], 2); rbCount = 0;
-#define pdmSetOff(Pdm) WRITE([0x51, Pdm], 2); rbCount = 0;
-#define pdmIniOn(Pdm) WRITE([0x52, Pdm], 2); rbCount = 0;
-#define pdmIniOff(Pdm) WRITE([0x53, Pdm], 2); rbCount = 0;
-#define pdmGetActual(Pdm) WRITE([0x54, Pdm], 2); rbCount = 2;
-#define pdmSetTimerLim(Pdm) WRITE([0x60, Pdm], 2); rbCount = 0;
-#define pdmGetTimerLim(Pdm) WRITE([0x61, Pdm], 2); rbCount = 2;
-#define pdmGetTimerVal(Pdm) WRITE([0x62, Pdm], 2); rbCount = 2;
-#define pdmPCMReset(Pdm) WRITE([0x70, Pdm], 2); rbCount = 0;
-
-/* sends one command to EPS, used mostly b/c sometimes we need to send multiple byte in a row */
-#define WRITE(bytes, len) Wire.beginTransmission(DEVICE); Wire.write(bytes, len); tErr=Wire.endTransmission();
-
 /* delay period */
 #define DELAY delay(500);
-
-#define BUTTONPROMPT(B, incdec, var, max, prnt, pval, skipCheck) \
-if (digitalRead(B ## ButtonPin) == HIGH) { \
-  incdec; \
-  if (!skipCheck){ \
-    if (var < 0) {var = 0;}\
-    if (var >= max) {;}\
-  }\
-}
-
-
-#define LRBUTTONCHECK(B, incdecvar, var, max, prnt, pval, checkval) \
-if (digitalRead(B ## ButtonPin) == HIGH){\
-  incdecvar;\
-  if (checkval){\
-    if (var < 0) { var = 0; }\
-    if (var >= max) { var = max-1; }\
-  }\
-  Serial.print(prnt);\
-  Serial.print(pval);\
-}
-
-#define LRBUTTONPROMPT(B, incdec, var, max, prnt, pval) \
-if (digitalRead( B ## ButtonPin) == HIGH) {\
-  if (! B ## ButtonState ){\
-    B ## ButtonState = true;\
-    var ## incdec;\
-    if (var < 0) {var = 0;}\
-    if (var >= max) {var = max - 1;}\
-    Serial.print(prnt);\
-    Serial.println(pval);\
-  }\
-}\
-else { B ## ButtonState = false; }
 
 int returnLen[] = {0, 2, 2, 2, 0, 2, 0, 2, 0, 2, 2, 0, 0, 4, 4, 4, 0, 0, 0, 0, 0, 2, 0, 2, 2, 0};
 int argLen[] = {0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 1, 1, 1};
@@ -100,7 +28,7 @@ byte command_codes[] = {
   0x62, 0x70
 };
 
-char command_names[][35] = {
+char command_names[][50] = {
   "invalidOperation",
   "getStatus",
   "getError",
@@ -152,22 +80,35 @@ byte send_packet[3] = {0x00, 0x00, 0x00};
 byte rec_packet[4] = {0x00, 0x00, 0x00, 0x00};
 
 int getCommand(void){
-  int cmd_id = 0;
+  unsigned char cmd_id = 0;
   bool complete = false;
 
   Serial.println("Please input the command you want to use.");
   Serial.println("Use Left and Right buttons to look thru the commands");
   Serial.println("Use Select to select a command");
   Serial.println(cmd_id);
-
   while (!complete){
-    LRBUTTONCHECK(left, --cmd_id, cmd_id, N_FUNCS, "Current Command: ", command_names[cmd_id], true);
-    LRBUTTONCHECK(right, ++cmd_id, cmd_id, N_FUNCS, "Current Command: ", command_names[cmd_id], true);
-    LRBUTTONCHECK(select, complete = true, complete, 2, "Selected Command: ", command_names[cmd_id], false);
+    if (digitalRead(leftButtonPin) == HIGH){
+      --cmd_id;
+      if (cmd_id >= CMDCOUNT) cmd_id = CMDCOUNT - 1;
+      Serial.print("Current Command: ");
+      Serial.println(command_names[cmd_id]);
+    }
+    if (digitalRead(rightButtonPin) == HIGH){
+      ++cmd_id;
+      if (cmd_id >= CMDCOUNT) cmd_id = CMDCOUNT - 1;
+      Serial.print("Current Command: ");
+      Serial.println(command_names[cmd_id]);
+    }
+    if (digitalRead(selectButtonPin) == HIGH){
+      complete = true;
+      Serial.print("Selected Command: ");
+      Serial.println(command_names[cmd_id]);
+    }
     DELAY;
   }
 
-  send_packet[0] = cmd_id;
+  send_packet[0] = command_code[cmd_id];
 
   return cmd_id;
 }
@@ -216,8 +157,15 @@ void getInputs(byte output[2], int cmd_id)
       }
     }
     else{
-      BUTTONPROMPT(left, retry = 1,retry, N_FUNCS, "Chose \"Correct Inputs\"", "", false);
-      BUTTONPROMPT(right, retry = 2, retry, N_FUNCS, "Chose \"Redo Inputs\"", "", false);
+      if (digitalRead(leftButtonPin) == HIGH){
+        retry = 1;
+        Serial.println("User confirmed inputs. Proceeding");
+      }
+      else if (digitalRead(rightButtonPin) == HIGH){
+        retry = 2;
+        Serial.println("User wishes to redo inputs. returning to start of logic.");
+      }
+      
       if (digitalRead(selectButtonPin) == HIGH) {
         if (retry == 1) {
           idx++;
