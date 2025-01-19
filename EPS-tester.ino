@@ -28,7 +28,7 @@ byte command_codes[] = {
   0x62, 0x70
 };
 
-char command_names[][50] = {
+char *command_names[] = {
   "invalidOperation",
   "getStatus",
   "getError",
@@ -56,158 +56,140 @@ char command_names[][50] = {
   "PcmReset"
 };
 
+
 int test_counter = 0; /* counter for the current test */
+int cmd_id = 0; /* id number for current command */
 int rbCount = 0; /* stores number of bytes to get from EPS */
+unsigned char result[4]; /* stores actual result */
+unsigned char expected[4]; /* stores expected result */
 int tErr; /* stores last return value of endTransmission */
+int outputSrc = 0; /* stores the current input source, if it's 0 it's I2C, else its channel */
+bool readMode = false; /* skips either testSend or testRecieve in the loop */
 
-const int leftButtonPin = 4;
-const int selectButtonPin = 5;
-const int rightButtonPin = 6;
+const int leftButtonPin = 2;
+const int selectButtonPin = 3;
+const int rightButtonPin = 4;
 
-bool leftButtonState = false;
-bool rightButtonState = false;
-bool selectButtonState = false;
-bool rpacket_print_flag = false;
+bool leftButtonState = 0;
+bool rightButtonState = 0;
 
-enum state {READ_INPUT, READ_OUTPUT};
+unsigned char get_input(int is_command)
+{
+  unsigned char input = 0;
+  int done = 0;
+  while ( ! done )
+  {
+    if (digitalRead(rightButtonPin) == HIGH)
+    {
+      input += 1;
+    }
+    if (digitalRead(leftButtonPin) == HIGH)
+    {
+      input += 1;
+    }
+    if (digitalRead(selectButtonPin) == HIGH)
+    {
+      Serial.println("Are you sure you would like to accept the current input? (left == no, right == yes)");
+      Serial.print("Current input is ");
+      Serial.println(input, HEX);
+      /* wait for it to be unpressed */
+      while (1)
+      {
+        if (digitalRead(leftButtonPin) == HIGH)
+        {
+          break;
+        }
+        if (digitalRead(rightButtonPin) == HIGH)
+        {
+          done = 1;
+          break;
+        }
+      }
+    }
 
-enum state prog_state = READ_INPUT;
+    if (is_command)
+    {
+      if (input > CMDCOUNT)
+      {
+        input = 0;
+      }
+      Serial.print("Current Command: ");
+      Serial.print(command_codes[input], HEX);
+      Serial.print("(");
+      Serial.print(command_names[input]);
+      Serial.println(")");
+    }
+    else {
+      Serial.println("Current byte: ");
+      Serial.println(input, HEX);
+    }
 
-byte cmd_args[2] = {0x00, 0x00};
-byte results[4] = {0x00, 0x00, 0x00, 0x00};
-
-byte send_packet[3] = {0x00, 0x00, 0x00};
-byte rec_packet[4] = {0x00, 0x00, 0x00, 0x00};
+    DELAY
+  }
+  return input;
+}
 
 int getCommand(void){
-  unsigned char cmd_id = 0;
-  bool complete = false;
-
-  Serial.println("Please input the command you want to use.");
-  Serial.println("Use Left and Right buttons to look thru the commands");
-  Serial.println("Use Select to select a command");
-  Serial.println(cmd_id);
-  while (!complete){
-    if (digitalRead(leftButtonPin) == HIGH){
-      --cmd_id;
-      if (cmd_id >= CMDCOUNT) cmd_id = CMDCOUNT - 1;
-      Serial.print("Current Command: ");
-      Serial.println(command_names[cmd_id]);
-    }
-    if (digitalRead(rightButtonPin) == HIGH){
-      ++cmd_id;
-      if (cmd_id >= CMDCOUNT) cmd_id = CMDCOUNT - 1;
-      Serial.print("Current Command: ");
-      Serial.println(command_names[cmd_id]);
-    }
-    if (digitalRead(selectButtonPin) == HIGH){
-      complete = true;
-      Serial.print("Selected Command: ");
-      Serial.println(command_names[cmd_id]);
-    }
-    DELAY;
-  }
-
-  send_packet[0] = command_code[cmd_id];
+  Serial.println("======================");
+  Serial.println("   Getting command");
+  Serial.println("======================");
+  cmd_id = get_input(1);
+  Serial.println("======================");
+  Serial.println("     Got Command");
+  Serial.println(command_names[cmd_id]);
+  Serial.println("======================");
 
   return cmd_id;
 }
 
-void getInputs(byte output[2], int cmd_id)
-{
-  int idx = argLen[cmd_id];
-  bool askForConf = false;
-  int retry = 0;
+void testSend(int command_num) {
+  unsigned char payload[2];
 
-  Serial.println("Please input numbers to use as inputs");
-  Serial.println("Left button decreases the byte value, Right button increases the byte value, Select to go to next byte / stop inputting");
+  /* get payload bytes from user */
+  Serial.println("======================");
+  Serial.println(" first parameter byte");
+  Serial.println("======================");
+  payload[0] = get_input(0);
+  Serial.println("======================");
+  Serial.println("second parameter byte");
+  Serial.println("======================");
+  payload[1] = get_input(0);
 
-  while (idx > 0){
-    if (!askForConf){
-      if (digitalRead(leftButtonPin) == HIGH){
-        send_packet[idx]--;
-        Serial.print(idx+1);
-        Serial.print("th byte: ");
-        Serial.println(output[idx]);
-      }
-      else if (digitalRead(rightButtonPin) == HIGH){
-        send_packet[idx]--;
-        Serial.print(idx+1);
-        Serial.print("th byte: ");
-        Serial.println(output[idx]);
-      }
-      if (digitalRead(selectButtonPin) == HIGH){
-        if (idx - 1 == 0){
-          Serial.println("Are you sure your inputs look good?");
-          Serial.print("Inputs to command : \"");
-          Serial.print(command_names[cmd_id]);
-          Serial.print("\" : [ ");
-          for (int i = 0; i < argLen[cmd_id]; i++){
-            if (i > 0 ) Serial.print(", ");
-            Serial.print("0x");
-            Serial.print(output[i], HEX);
-          }
-          Serial.println(" ]");
-          Serial.println("Left for correct inputs, Right for redo inputs, Select to commit to one of these options");
-        }
-        else { 
-          idx--;
-          Serial.println("Switched to next byte of input");
-        }
-      }
-    }
-    else{
-      if (digitalRead(leftButtonPin) == HIGH){
-        retry = 1;
-        Serial.println("User confirmed inputs. Proceeding");
-      }
-      else if (digitalRead(rightButtonPin) == HIGH){
-        retry = 2;
-        Serial.println("User wishes to redo inputs. returning to start of logic.");
-      }
-      
-      if (digitalRead(selectButtonPin) == HIGH) {
-        if (retry == 1) {
-          idx++;
-          Serial.println("Selected \"Correct Inputs\". Proceeding.");
-        }
-        else if (retry == 2) {
-          idx = argLen[cmd_id];
-          askForConf = false;
-          Serial.println("Selected \"Redo Inputs\". Going to first input.");
-        }
-        else Serial.println("You must select an option: (left) inputs are correct, proceed | (right) inputs are incorrect, try again");
-      }
-    }
-    DELAY;
-  }
-  return;
+  Serial.println("======================");
+  Serial.println("     Got inputs:");
+  Serial.print("         0x");
+  Serial.println(payload[0], HEX);
+  Serial.print("         0x");
+  Serial.println(payload[1], HEX);
+  Serial.println("     To Command");
+  Serial.println(command_names[cmd_id]);
+  Serial.println("======================");
+
+  Serial.println("======================");
+  Serial.println("sending message to EPS");
+  Serial.println("======================");
+  Wire.beginTransmission(I2CADDR);
+  Wire.write(payload, 2);
+  tErr = Wire.endTransmission();
+  Serial.println("======================");
+  Serial.println(" message sent to EPS");
+  Serial.println("======================");
+
 }
 
-void read_output(int cmd) {
-  byte tmp;
-  int rec_idx = Wire.available();
-
-  if (digitalRead(selectButtonPin) == HIGH && selectButtonState == false) {
-      Serial.println();
-      prog_state = READ_INPUT;
+void testRecieve(int test_num){
+  int bLeft = Wire.available();
+  char c;
+  if (bLeft > 0){
+    c = Wire.read();
+    result[rbCount-bLeft] = c;
+    Serial.print(c);
   }
-  
-  if (rec_idx){
-    tmp = Wire.read();
-
-    rec_packet[rec_idx] = tmp;
-  }
-  if (!rec_idx && rpacket_print_flag){
-    Serial.print("Received: [");
-    for (int i=0; i<returnLen[cmd]; i++){
-      if (i > 0 ) Serial.print(", ");
-      Serial.print("0x");
-      Serial.print(rec_packet[i], HEX);
-    }
-    Serial.println("]");
+  if (bLeft == 1){
+    readMode = false;
   }
 }
+
 
 void setup() {
   Wire.begin();        // join i2c bus (address optional for master)
@@ -219,33 +201,15 @@ void setup() {
   pinMode(leftButtonPin, INPUT);
 }
 
+
 void loop() {
-  int cmd;
-  int arg_c;
-  byte inputs[2] = {0x00, 0x00};
-  byte outputs[4];
-
-  if (prog_state = READ_INPUT){
-    send_packet[1] = 0x00;
-    cmd = getCommand();
-    getInputs(inputs, cmd);
-
-    Wire.beginTransmission(I2CADDR);
-    arg_c = argLen[cmd] + 1;
-    if (arg_c == 1) arg_c++;
-    Wire.write(send_packet, argLen[cmd] + 1);
-    Wire.endTransmission();
-    Wire.requestFrom(I2CADDR, 4);
-
-    prog_state = READ_OUTPUT;
-    rpacket_print_flag = false;
+  getCommand();
+  if (!readMode) {
+    testSend(cmd_id);
   }
-  else if (prog_state = READ_OUTPUT){
-    read_output(cmd);
+  else {
+    testRecieve(cmd_id);
   }
-  /* run func to write command + inputs to I2C line */
-
-
-  DELAY;
+  DELAY
 }
 
