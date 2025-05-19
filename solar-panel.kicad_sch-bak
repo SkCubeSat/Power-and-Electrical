@@ -656,104 +656,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Series_Connection_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connection_Pads:Series_Connection_Pad"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Series_Connection_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connection_Pads:Series_Connection_Pad"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -952,6 +854,16 @@
 			(type default)
 		)
 		(uuid "2cea1d9c-129f-4192-bca7-8aaa70f5b6d2")
+	)
+	(wire
+		(pts
+			(xy 160.02 73.66) (xy 140.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7ebe99-1d21-4ac5-a749-f05175546666")
 	)
 	(wire
 		(pts
@@ -1173,7 +1085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d55fd7c-c126-4b37-9e14-3003fe471bdd")
-		(property "Reference" "H3"
+		(property "Reference" "H102"
 			(at 134.62 135.2463 0)
 			(effects
 				(font
@@ -1221,7 +1133,7 @@
 		(instances
 			(project "solar-panel"
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "H3")
+					(reference "H102")
 					(unit 1)
 				)
 			)
@@ -1369,7 +1281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1af093ab-e37b-46dd-b262-0a736926954a")
-		(property "Reference" "Solder_Pad3"
+		(property "Reference" "Solder_Pad2"
 			(at 92.71 80.6449 0)
 			(effects
 				(font
@@ -1418,7 +1330,7 @@
 		(instances
 			(project ""
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "Solder_Pad3")
+					(reference "Solder_Pad2")
 					(unit 1)
 				)
 			)
@@ -1568,7 +1480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dd3beb8-2a9f-49a6-87b8-11bca57fa9f1")
-		(property "Reference" "H5"
+		(property "Reference" "H103"
 			(at 158.75 135.2463 0)
 			(effects
 				(font
@@ -1616,7 +1528,7 @@
 		(instances
 			(project "solar-panel"
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "H5")
+					(reference "H103")
 					(unit 1)
 				)
 			)
@@ -1754,6 +1666,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 160.02 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3316017b-fdb1-45c3-9e6a-e594ee51444e")
+		(property "Reference" "#PWR04"
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abda6b2b-6cf7-49f4-b9c7-a098d5d6dfcd")
+		)
+		(instances
+			(project "solar-panel"
+				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Pad_3")
 		(lib_id "Connection_Pads:Pad")
 		(at 161.29 50.8 0)
@@ -1764,7 +1742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "506de7ff-5b59-41c2-bb53-7cc41b3a38fd")
-		(property "Reference" "Solder_Pad4"
+		(property "Reference" "Solder_Pad2"
 			(at 162.56 50.1649 0)
 			(effects
 				(font
@@ -1813,7 +1791,7 @@
 		(instances
 			(project ""
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "Solder_Pad4")
+					(reference "Solder_Pad2")
 					(unit 1)
 				)
 			)
@@ -1829,7 +1807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58a372f4-e602-4c38-8f5f-158d1ad623b0")
-		(property "Reference" "H1"
+		(property "Reference" "H101"
 			(at 111.76 135.2463 0)
 			(effects
 				(font
@@ -1877,7 +1855,7 @@
 		(instances
 			(project "solar-panel"
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "H1")
+					(reference "H101")
 					(unit 1)
 				)
 			)
@@ -1959,7 +1937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ebb8e33-81be-4c86-99db-4a2bde7b96af")
-		(property "Reference" "Solder_Pad6"
+		(property "Reference" "Solder_Pad3"
 			(at 214.63 64.1349 0)
 			(effects
 				(font
@@ -2008,7 +1986,7 @@
 		(instances
 			(project ""
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "Solder_Pad6")
+					(reference "Solder_Pad3")
 					(unit 1)
 				)
 			)
@@ -2207,6 +2185,73 @@
 			(project "solar-panel"
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
 					(reference "SC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92986398-cc35-481e-81b6-d40c7d9c4498")
+		(property "Reference" "#PWR03"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bacf9c63-f276-47bd-a239-1b342627a2a6")
+		)
+		(instances
+			(project ""
+				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2487,7 +2532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a038639f-5153-42c7-86b4-e7b170396d16")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 210.82 73.66 0)
 			(effects
 				(font
@@ -2537,7 +2582,7 @@
 		(instances
 			(project ""
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2553,7 +2598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a57ca283-4990-4b4d-afad-020d39ed8877")
-		(property "Reference" "H2"
+		(property "Reference" "H104"
 			(at 111.76 146.6763 0)
 			(effects
 				(font
@@ -2601,7 +2646,7 @@
 		(instances
 			(project "solar-panel"
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "H2")
+					(reference "H104")
 					(unit 1)
 				)
 			)
@@ -2617,7 +2662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac6052b3-0eaa-454b-838c-7b71ce97f17f")
-		(property "Reference" "H6"
+		(property "Reference" "H106"
 			(at 160.02 146.6763 0)
 			(effects
 				(font
@@ -2665,7 +2710,7 @@
 		(instances
 			(project "solar-panel"
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "H6")
+					(reference "H106")
 					(unit 1)
 				)
 			)
@@ -2748,7 +2793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0704c8a-a093-4551-a103-77ca88b5f696")
-		(property "Reference" "H4"
+		(property "Reference" "H105"
 			(at 134.62 146.6763 0)
 			(effects
 				(font
@@ -2796,7 +2841,7 @@
 		(instances
 			(project "solar-panel"
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "H4")
+					(reference "H105")
 					(unit 1)
 				)
 			)
@@ -3013,7 +3058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc99df34-7a0f-4500-b6b0-03b560754db6")
-		(property "Reference" "Solder_Pad2"
+		(property "Reference" "Solder_Pad1"
 			(at 87.63 76.8349 0)
 			(effects
 				(font
@@ -3062,137 +3107,7 @@
 		(instances
 			(project ""
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "Solder_Pad2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Series_Connection_1")
-		(lib_id "Connection_Pads:Series_Connection")
-		(at 140.97 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9f119c1-b583-44f1-a6a3-6e7dce317f7b")
-		(property "Reference" "Connection5"
-			(at 142.24 73.0249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 142.24 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connection_Pads:Series_Connection_Pad"
-			(at 140.97 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "Connection5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Series_Connection_2")
-		(lib_id "Connection_Pads:Series_Connection")
-		(at 186.69 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de40a7a1-6886-44a9-8d68-5748fe46b0e5")
-		(property "Reference" "Connection6"
-			(at 187.96 97.1549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 187.96 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connection_Pads:Series_Connection_Pad"
-			(at 186.69 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "Connection6")
+					(reference "Solder_Pad1")
 					(unit 1)
 				)
 			)
@@ -3276,7 +3191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7a0b2a7-202a-4cea-8fd6-8aa943679844")
-		(property "Reference" "Solder_Pad5"
+		(property "Reference" "Solder_Pad4"
 			(at 187.96 79.3749 0)
 			(effects
 				(font
@@ -3325,7 +3240,7 @@
 		(instances
 			(project ""
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "Solder_Pad5")
+					(reference "Solder_Pad4")
 					(unit 1)
 				)
 			)
