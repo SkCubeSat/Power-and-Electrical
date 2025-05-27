@@ -295,8 +295,8 @@
 		(uuid "6bcb0ccd-773f-4563-9f3f-1cd92539fb8e")
 	)
 	(fp_line
-		(start -8.5 -79.5)
-		(end -8.5 -70)
+		(start -9 -79.5)
+		(end -9 -70)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -305,7 +305,7 @@
 		(uuid "9578140e-5ec3-432b-b0cc-8420377575c7")
 	)
 	(fp_line
-		(start -8.5 -70)
+		(start -9 -70)
 		(end -0.5 -70)
 		(stroke
 			(width 0.1)
@@ -315,8 +315,8 @@
 		(uuid "8e995b88-ea2d-4fb3-91a7-53e46e80f321")
 	)
 	(fp_line
-		(start -8.5 -65.5)
-		(end -8.5 -56)
+		(start -9 -65.5)
+		(end -9 -56)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -325,7 +325,7 @@
 		(uuid "ffcfcc3a-4182-4bcd-83f4-398ba4cf7af5")
 	)
 	(fp_line
-		(start -8.5 -56)
+		(start -9 -56)
 		(end -0.5 -56)
 		(stroke
 			(width 0.1)
@@ -335,8 +335,8 @@
 		(uuid "05993fdd-afca-405c-90df-98aad04e9ede")
 	)
 	(fp_line
-		(start -8.5 -45)
-		(end -8.5 -35.5)
+		(start -9 -45)
+		(end -9 -35.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -345,7 +345,7 @@
 		(uuid "47549755-6914-4fb0-b7ce-58e309ec1adc")
 	)
 	(fp_line
-		(start -8.5 -45)
+		(start -9 -45)
 		(end -0.5 -45)
 		(stroke
 			(width 0.1)
@@ -355,7 +355,7 @@
 		(uuid "7c9dfbbd-d51c-404a-81ec-4bbf408ce54c")
 	)
 	(fp_line
-		(start -8.5 -35.5)
+		(start -9 -35.5)
 		(end -0.5 -35.5)
 		(stroke
 			(width 0.1)
@@ -365,8 +365,8 @@
 		(uuid "0a02deb1-a26a-408c-8f0e-d81b46183f1a")
 	)
 	(fp_line
-		(start -8.5 -24.5)
-		(end -8.5 -15)
+		(start -9 -24.5)
+		(end -9 -15)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -375,7 +375,7 @@
 		(uuid "78cdbb5f-211f-44cb-9823-130e13b73f08")
 	)
 	(fp_line
-		(start -8.5 -15)
+		(start -9 -15)
 		(end -0.5 -15)
 		(stroke
 			(width 0.1)
@@ -396,7 +396,7 @@
 	)
 	(fp_line
 		(start -0.5 -79.5)
-		(end -8.5 -79.5)
+		(end -9 -79.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -416,7 +416,7 @@
 	)
 	(fp_line
 		(start -0.5 -65.5)
-		(end -8.5 -65.5)
+		(end -9 -65.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -446,7 +446,7 @@
 	)
 	(fp_line
 		(start -0.5 -24.5)
-		(end -8.5 -24.5)
+		(end -9 -24.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -517,28 +517,28 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -4.25 -60.58)
+		(at -4.75 -60.58)
 		(size 7.5 8.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "3e33ea36-777e-4d04-a7aa-dbc25e0ccadb")
 	)
 	(pad "1" smd rect
-		(at -4.25 -40)
+		(at -4.75 -40)
 		(size 7.5 8.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "0e3b5639-bce0-41d5-99d6-1318f016498c")
 	)
 	(pad "1" smd rect
-		(at -4.25 -19.615)
+		(at -4.75 -19.615)
 		(size 7.5 8.23)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "0c031e12-da6d-4e54-abf7-8994b391cdb6")
 	)
 	(pad "2" smd roundrect
-		(at -4.25 -74.6175)
+		(at -4.75 -74.6175)
 		(size 7.5 8.235)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1067235859)
