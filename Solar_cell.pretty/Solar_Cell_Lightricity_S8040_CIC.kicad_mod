@@ -545,8 +545,8 @@
 		(uuid "aec83815-5ed4-4653-ad2d-28bc6b994a0d")
 	)
 	(pad "2" smd roundrect
-		(at 23 -41)
-		(size 28 71)
+		(at 21.5 -33.5)
+		(size 20.367186 49.679686)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1067235859)
 		(uuid "6158d41f-a958-4786-900b-8912252d7d0e")

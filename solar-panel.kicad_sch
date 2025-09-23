@@ -743,7 +743,7 @@
 		)
 		(uuid c29eaafe-7af3-49ef-831a-8596a0254c4e)
 	)
-	(text "Left Panel\n"
+	(text "Side Panel\n"
 		(exclude_from_sim no)
 		(at 115.824 48.768 0)
 		(effects
@@ -753,7 +753,7 @@
 		)
 		(uuid "32a256e9-c189-43e1-b2d1-aac545b9c3d5")
 	)
-	(text "Right Panel\n"
+	(text "Side Panel\n"
 		(exclude_from_sim no)
 		(at 205.232 46.99 0)
 		(effects
@@ -788,7 +788,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 109.22) (xy 166.37 109.22)
+			(xy 151.13 116.84) (xy 166.37 116.84)
 		)
 		(stroke
 			(width 0)
@@ -798,7 +798,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 54.61) (xy 151.13 54.61)
+			(xy 166.37 43.18) (xy 151.13 43.18)
 		)
 		(stroke
 			(width 0)
@@ -808,53 +808,33 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 60.96) (xy 199.39 60.96)
+			(xy 104.14 86.36) (xy 104.14 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c102b8e-4f11-4d3c-8737-a35e090b8c0a")
+		(uuid "119aa989-cd81-4d5e-b1e5-2cbdfc1bb23f")
 	)
 	(wire
 		(pts
-			(xy 208.28 86.36) (xy 208.28 90.17)
+			(xy 124.46 52.07) (xy 124.46 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12315289-e679-40be-ac77-537990fa15d0")
+		(uuid "11b0bfa4-e02a-47a0-9240-a27143754fb5")
 	)
 	(wire
 		(pts
-			(xy 104.14 57.15) (xy 128.27 57.15)
+			(xy 124.46 104.14) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12e12ede-b5ce-4c8f-b789-15843197440c")
-	)
-	(wire
-		(pts
-			(xy 104.14 111.76) (xy 128.27 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17da44c3-66a9-4439-b3e1-648f345bc779")
-	)
-	(wire
-		(pts
-			(xy 128.27 68.58) (xy 128.27 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21373ca5-2f1d-40fd-80f2-34a1b748cb50")
+		(uuid "23870b39-0a5e-472c-85d4-9c73b0f16ea4")
 	)
 	(wire
 		(pts
@@ -868,73 +848,43 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 109.22) (xy 199.39 109.22)
+			(xy 208.28 58.42) (xy 208.28 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38387cff-a63f-490a-8670-9ea184bd8c30")
+		(uuid "3a38891e-622c-4539-b033-b1ede976d00d")
 	)
 	(wire
 		(pts
-			(xy 215.9 119.38) (xy 215.9 116.84)
+			(xy 166.37 43.18) (xy 166.37 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3915058e-512e-44f1-bc3d-64cbd1292713")
+		(uuid "490a1762-f76d-4435-97ca-ce381cd4cfd9")
 	)
 	(wire
 		(pts
-			(xy 194.31 119.38) (xy 215.9 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a9ade24-15e1-4dd7-8430-59874b315a2e")
-	)
-	(wire
-		(pts
-			(xy 104.14 78.74) (xy 104.14 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ef56f9a-c5b4-4a68-9f80-c1f7eaea7d39")
-	)
-	(wire
-		(pts
-			(xy 128.27 57.15) (xy 128.27 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4087a411-2c21-4471-9c56-5ca4a43b25c6")
-	)
-	(wire
-		(pts
-			(xy 104.14 57.15) (xy 104.14 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45bf33b9-3c53-4a74-aa0c-62bd3d748168")
-	)
-	(wire
-		(pts
-			(xy 151.13 54.61) (xy 151.13 64.77)
+			(xy 151.13 43.18) (xy 151.13 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ed833ee-68c9-47e7-8fb6-de29ab1c61d2")
+	)
+	(wire
+		(pts
+			(xy 166.37 53.34) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4aac28-131d-46da-bb9d-e841b0dbbca1")
 	)
 	(wire
 		(pts
@@ -948,33 +898,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 67.31) (xy 104.14 71.12)
+			(xy 104.14 67.31) (xy 104.14 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65589d0f-d962-4cb3-ac6b-b7f3577abb65")
-	)
-	(wire
-		(pts
-			(xy 208.28 97.79) (xy 208.28 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69097b4d-fe2e-466f-920c-287bccdccc84")
-	)
-	(wire
-		(pts
-			(xy 208.28 58.42) (xy 208.28 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "793da1b4-dba5-408a-8f41-21c67fee5c29")
+		(uuid "65fd7634-ebe1-408e-bfb3-8fa18d0f399e")
 	)
 	(wire
 		(pts
@@ -988,27 +918,27 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 111.76) (xy 215.9 114.3)
+			(xy 104.14 96.52) (xy 104.14 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "887dc44c-95e6-46e0-9177-4480657858fa")
+		(uuid "8e62fd67-97a3-4cdf-b556-99836ed82e4c")
 	)
 	(wire
 		(pts
-			(xy 104.14 90.17) (xy 104.14 93.98)
+			(xy 104.14 52.07) (xy 124.46 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "993fb2ff-d187-4b11-85ea-e8a2e942b4a2")
+		(uuid "907d73b6-0112-46b8-8988-d1a76178f73a")
 	)
 	(wire
 		(pts
-			(xy 151.13 67.31) (xy 151.13 109.22)
+			(xy 151.13 67.31) (xy 151.13 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1018,37 +948,27 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 111.76) (xy 215.9 111.76)
+			(xy 104.14 104.14) (xy 124.46 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c5cbf82-884f-4d78-bae4-0870b4339eaa")
+		(uuid "a3a8d883-c2db-4cdb-9c4d-06af5be3a55e")
 	)
 	(wire
 		(pts
-			(xy 104.14 104.14) (xy 128.27 104.14)
+			(xy 166.37 116.84) (xy 166.37 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b15428ba-388d-4114-a2eb-7d28407d36a3")
+		(uuid "aeaf3cce-37d3-4d89-beff-13502e6ad817")
 	)
 	(wire
 		(pts
-			(xy 128.27 111.76) (xy 128.27 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b47c88d6-1bbf-47cb-8757-b41c8ebe8e69")
-	)
-	(wire
-		(pts
-			(xy 199.39 60.96) (xy 199.39 109.22)
+			(xy 196.85 60.96) (xy 196.85 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1078,13 +998,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 101.6) (xy 104.14 101.6)
+			(xy 208.28 86.36) (xy 208.28 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d047d1d3-e5b4-4b82-ae36-d67fbd1b1a0a")
+		(uuid "d028e4ed-697f-4c47-a381-26809d065f3b")
+	)
+	(wire
+		(pts
+			(xy 208.28 90.17) (xy 196.85 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc510e0d-3d49-4156-b66c-b2e593a8b025")
 	)
 	(wire
 		(pts
@@ -1098,82 +1028,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 104.14) (xy 128.27 106.68)
+			(xy 104.14 77.47) (xy 104.14 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed7909ab-9a75-4cb6-8ee7-c212fca6be9f")
-	)
-	(symbol
-		(lib_id "Connection_Pads:Pout_Hirose")
-		(at 129.54 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "086c4513-ecc3-4426-8a82-717e93a64b54")
-		(property "Reference" "Sepic_A1"
-			(at 125.73 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 132.08 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connection_Pads:2_Hirose_Pin"
-			(at 129.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e8c51be9-4ad9-4dc4-91fa-225050e90839")
-		)
-		(pin "1"
-			(uuid "e02d7347-d8e1-4c14-8305-1af69b812845")
-		)
-		(instances
-			(project ""
-				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "Sepic_A1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "ec78ddb5-2d1e-4126-a099-c8adafd398c0")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -1241,7 +1102,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 194.31 116.84 0)
+		(at 208.28 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1249,7 +1110,7 @@
 		(dnp no)
 		(uuid "0f0bcf45-696b-4e98-91e7-37535d599471")
 		(property "Reference" "SC2"
-			(at 200.66 114.3 0)
+			(at 214.63 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1118,7 @@
 			)
 		)
 		(property "Value" "S8040_CIC"
-			(at 200.66 116.84 0)
+			(at 214.63 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1126,7 @@
 			)
 		)
 		(property "Footprint" "Solar_cell:Solar_Cell_Lightricity_S8040_CIC"
-			(at 194.31 115.316 90)
+			(at 208.28 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 115.316 90)
+			(at 208.28 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,7 +1144,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 194.31 116.84 0)
+			(at 208.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,16 +1170,15 @@
 	(symbol
 		(lib_name "Pad_1")
 		(lib_id "Connection_Pads:Pad")
-		(at 130.81 76.2 0)
+		(at 128.27 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1af093ab-e37b-46dd-b262-0a736926954a")
 		(property "Reference" "Solder_Pad3"
-			(at 132.08 75.5649 0)
+			(at 127 76.8351 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1188,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 132.08 77.47 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1197,7 @@
 			)
 		)
 		(property "Footprint" "Connection_Pads:Series_Connection_Pad"
-			(at 130.81 76.2 0)
+			(at 128.27 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 76.2 0)
+			(at 128.27 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,7 +1215,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 76.2 0)
+			(at 128.27 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1234,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 104.14 99.06 0)
+		(at 104.14 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1382,7 +1242,7 @@
 		(dnp no)
 		(uuid "1b30445b-5fa3-4263-bf93-f3b7fc2b152c")
 		(property "Reference" "SC6"
-			(at 110.49 96.52 0)
+			(at 97.79 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,7 +1250,7 @@
 			)
 		)
 		(property "Value" "S8040_CIC"
-			(at 110.49 99.06 0)
+			(at 97.79 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +1258,7 @@
 			)
 		)
 		(property "Footprint" "Solar_cell:Solar_Cell_Lightricity_S8040_CIC"
-			(at 104.14 97.536 90)
+			(at 104.14 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +1267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 97.536 90)
+			(at 104.14 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1276,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 104.14 99.06 0)
+			(at 104.14 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,6 +1361,70 @@
 			(project "solar-panel"
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
 					(reference "SC13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 163.83 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cfe3330-5fb2-4ed1-8330-45c730386735")
+		(property "Reference" "H9"
+			(at 166.37 183.5063 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 166.37 185.4273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 163.83 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 163.83 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solar-panel"
+				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -1638,41 +1562,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connection_Pads:Pout_Hirose")
-		(at 217.17 111.76 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 146.05 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "40fdb203-1ee0-4e0d-85aa-f856feb15d00")
-		(property "Reference" "Sepic_B1"
-			(at 219.71 110.49 0)
+		(fields_autoplaced yes)
+		(uuid "37b6e2ea-fd79-4500-9eac-d517d59c1368")
+		(property "Reference" "H7"
+			(at 148.59 183.5063 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 213.36 113.03 0)
+		(property "Value" "MountingHole"
+			(at 148.59 185.4273 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connection_Pads:2_Hirose_Pin"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 111.76 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 146.05 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,8 +1598,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 217.17 111.76 0)
+		(property "Datasheet" "~"
+			(at 146.05 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,16 +1607,83 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "951fd281-64fb-400c-b1a0-fa55e2213a99")
-		)
-		(pin "2"
-			(uuid "a22b5271-19c6-4f2a-9df5-19bfa5530ddc")
+		(property "Description" "Mounting Hole without connection"
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(instances
-			(project ""
+			(project "solar-panel"
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "Sepic_B1")
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 163.83 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4389e284-8771-4bca-94cd-08d6b5139d19")
+		(property "Reference" "H10"
+			(at 166.37 194.9363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 166.37 196.8573 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 163.83 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 163.83 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solar-panel"
+				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -1706,7 +1691,7 @@
 	)
 	(symbol
 		(lib_id "Connection_Pads:Hirose_Connector")
-		(at 125.73 72.39 0)
+		(at 133.35 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1714,7 +1699,7 @@
 		(dnp no)
 		(uuid "4dd5fc62-fed8-4e92-b12c-edcc79a9a200")
 		(property "Reference" "Hirose_Connector1"
-			(at 125.73 48.26 0)
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1709,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 127 73.66 0)
+			(at 132.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1718,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Hirose:Hirose_DF13-05P-1.25DSA_1x05_P1.25mm_Vertical"
-			(at 125.73 72.39 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +1727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 72.39 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1736,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 72.39 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1819,7 @@
 	)
 	(symbol
 		(lib_id "Connection_Pads:Pad")
-		(at 125.73 72.39 0)
+		(at 133.35 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1843,7 +1828,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e2600fe-9510-41c9-bd10-4193a7395170")
 		(property "Reference" "Solder_Pad1"
-			(at 127 71.7549 0)
+			(at 132.08 80.6451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +1838,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 127 73.66 0)
+			(at 132.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 72.39 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 72.39 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1865,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 72.39 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,83 +1883,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Solar_Cell")
-		(at 208.28 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "748a4665-91ef-4ffb-b798-1ec00ef292c5")
-		(property "Reference" "SC15"
-			(at 214.63 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "S8040_CIC"
-			(at 214.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Solar_cell:Solar_Cell_Lightricity_S8040_CIC"
-			(at 208.28 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single solar cell"
-			(at 208.28 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd1d862d-8d7e-4b51-9260-a8316c1ea618")
-		)
-		(pin "2"
-			(uuid "7688a25b-b84e-461c-b039-191a6035ecfe")
-		)
-		(instances
-			(project "solar-panel"
-				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "SC15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connection_Pads:Pout_Hirose")
-		(at 129.54 63.5 0)
+		(at 123.19 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7ab3d32a-d8b2-436c-88b7-0d79b0522254")
-		(property "Reference" "Buck_2A1"
-			(at 128.778 55.372 0)
+		(property "Reference" "Buck1"
+			(at 129.54 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +1900,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 125.73 64.77 0)
+			(at 127 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +1908,7 @@
 			)
 		)
 		(property "Footprint" "Connection_Pads:2_Hirose_Pin"
-			(at 129.54 63.5 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +1917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 63.5 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,7 +1926,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 63.5 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +1943,7 @@
 		(instances
 			(project ""
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "Buck_2A1")
+					(reference "Buck1")
 					(unit 1)
 				)
 			)
@@ -2033,7 +1951,7 @@
 	)
 	(symbol
 		(lib_id "Connection_Pads:Series_Connection")
-		(at 125.73 72.39 0)
+		(at 133.35 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2042,7 +1960,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ceba978-7d93-418e-8328-e872db2f5a38")
 		(property "Reference" "Connection1"
-			(at 127 71.7549 0)
+			(at 132.08 80.6451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +1970,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 127 73.66 0)
+			(at 132.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +1979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 72.39 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,7 +1988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 72.39 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +1997,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 72.39 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "818d873d-fbb9-408e-89f9-2b287dc425e8")
-		(property "Reference" "Buck_2B1"
+		(property "Reference" "Sepic1"
 			(at 199.136 53.594 0)
 			(effects
 				(font
@@ -2157,39 +2075,42 @@
 		(instances
 			(project ""
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "Buck_2B1")
+					(reference "Sepic1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Solar_Cell")
-		(at 104.14 64.77 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 146.05 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8abd0c73-6b46-4392-959c-c2ba29dd396b")
-		(property "Reference" "SC3"
-			(at 110.49 62.23 0)
+		(fields_autoplaced yes)
+		(uuid "850fdcb6-879d-4158-be88-ce0c571c7bd4")
+		(property "Reference" "H8"
+			(at 148.59 194.9363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "S8040_CIC"
-			(at 110.49 64.77 0)
+		(property "Value" "MountingHole"
+			(at 148.59 196.8573 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Solar_cell:Solar_Cell_Lightricity_S8040_CIC"
-			(at 104.14 63.246 90)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 146.05 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2119,68 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 63.246 90)
+			(at 146.05 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 146.05 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solar-panel"
+				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 104.14 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8abd0c73-6b46-4392-959c-c2ba29dd396b")
+		(property "Reference" "SC3"
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S8040_CIC"
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Solar_cell:Solar_Cell_Lightricity_S8040_CIC"
+			(at 104.14 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +2189,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 104.14 64.77 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2348,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 104.14 87.63 0)
+		(at 104.14 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2374,7 +2356,7 @@
 		(dnp no)
 		(uuid "9d1e7cc3-61a0-48dc-a989-8e29bead8bba")
 		(property "Reference" "SC5"
-			(at 110.49 85.09 0)
+			(at 97.79 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2364,7 @@
 			)
 		)
 		(property "Value" "S8040_CIC"
-			(at 110.49 87.63 0)
+			(at 97.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2372,7 @@
 			)
 		)
 		(property "Footprint" "Solar_cell:Solar_Cell_Lightricity_S8040_CIC"
-			(at 104.14 86.106 90)
+			(at 104.14 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 86.106 90)
+			(at 104.14 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2390,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 104.14 87.63 0)
+			(at 104.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2543,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 208.28 95.25 0)
+		(at 166.37 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2569,7 +2551,7 @@
 		(dnp no)
 		(uuid "ae3d87f5-3c08-4cf8-85fd-b19a3cc6fece")
 		(property "Reference" "SC14"
-			(at 214.63 92.71 0)
+			(at 172.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2559,7 @@
 			)
 		)
 		(property "Value" "S8040_CIC"
-			(at 214.63 95.25 0)
+			(at 172.72 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +2567,7 @@
 			)
 		)
 		(property "Footprint" "Solar_cell:Solar_Cell_Lightricity_S8040_CIC"
-			(at 208.28 93.726 90)
+			(at 166.37 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +2576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 93.726 90)
+			(at 166.37 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2585,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 208.28 95.25 0)
+			(at 166.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +2681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcce7f7f-6a97-472d-b178-838c204b89cb")
-		(property "Reference" "Buck_1"
+		(property "Reference" "Buck2"
 			(at 145.288 60.198 0)
 			(effects
 				(font
@@ -2751,7 +2733,7 @@
 		(instances
 			(project ""
 				(path "/3cfd2153-52bb-4eed-95c6-13d99c50d08a"
-					(reference "Buck_1")
+					(reference "Buck2")
 					(unit 1)
 				)
 			)
@@ -2894,7 +2876,7 @@
 	(symbol
 		(lib_name "Pad_2")
 		(lib_id "Connection_Pads:Pad")
-		(at 125.73 72.39 0)
+		(at 133.35 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2903,7 +2885,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc99df34-7a0f-4500-b6b0-03b560754db6")
 		(property "Reference" "Solder_Pad2"
-			(at 127 71.7549 0)
+			(at 132.08 80.6451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +2895,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 127 73.66 0)
+			(at 132.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +2904,7 @@
 			)
 		)
 		(property "Footprint" "Connection_Pads:Series_Connection_Pad"
-			(at 125.73 72.39 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +2913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 72.39 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +2922,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 72.39 0)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +3072,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 104.14 109.22 0)
+		(at 104.14 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3098,7 +3080,7 @@
 		(dnp no)
 		(uuid "def22952-d03b-42c5-8b85-6f86e87b9d0d")
 		(property "Reference" "SC1"
-			(at 110.49 106.68 0)
+			(at 97.79 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3088,7 @@
 			)
 		)
 		(property "Value" "S8040_CIC"
-			(at 110.49 109.22 0)
+			(at 97.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +3096,7 @@
 			)
 		)
 		(property "Footprint" "Solar_cell:Solar_Cell_Lightricity_S8040_CIC"
-			(at 104.14 107.696 90)
+			(at 104.14 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,7 +3105,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 107.696 90)
+			(at 104.14 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3114,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 104.14 109.22 0)
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3204,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 104.14 76.2 0)
+		(at 104.14 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3230,7 +3212,7 @@
 		(dnp no)
 		(uuid "f7e329e6-cfff-48d9-897c-9cfca50d29b8")
 		(property "Reference" "SC4"
-			(at 110.49 73.66 0)
+			(at 97.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3220,7 @@
 			)
 		)
 		(property "Value" "S8040_CIC"
-			(at 110.49 76.2 0)
+			(at 97.79 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3228,7 @@
 			)
 		)
 		(property "Footprint" "Solar_cell:Solar_Cell_Lightricity_S8040_CIC"
-			(at 104.14 74.676 90)
+			(at 104.14 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3237,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 74.676 90)
+			(at 104.14 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +3246,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 104.14 76.2 0)
+			(at 104.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
