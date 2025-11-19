@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Solar_cell")(type "KiCad")(uri "${KIPRJMOD}/Solar_cell.pretty")(options "")(descr "Radsat-Sk2 Solar cell footprints"))
+  (lib (name "Connection_Pads")(type "KiCad")(uri "${KIPRJMOD}/Connection_Pads.pretty")(options "")(descr ""))
+)

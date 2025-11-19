@@ -516,120 +516,6 @@
 			)
 		)
 	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "4d01d3d7-4a5c-416a-a9a3-7ab647167487")
-		(pts
-			(xy 0 -14) (xy 0 -80)
-		)
-		(height -27.71)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "66"
-			(at -28.86 -47 90)
-			(layer "Dwgs.User")
-			(uuid "4d01d3d7-4a5c-416a-a9a3-7ab647167487")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "56610bae-247e-42bf-81ce-973acb7a9ada")
-		(pts
-			(xy 40 -80) (xy 40 0)
-		)
-		(height 20.29)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "80"
-			(at 59.14 -40 90)
-			(layer "Dwgs.User")
-			(uuid "56610bae-247e-42bf-81ce-973acb7a9ada")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "a2d96484-b2f0-4fe6-96ed-59a2766e4b32")
-		(pts
-			(xy 0 -80) (xy 0 0)
-		)
-		(height -19.64)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "80"
-			(at -20.79 -40 90)
-			(layer "Dwgs.User")
-			(uuid "a2d96484-b2f0-4fe6-96ed-59a2766e4b32")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
 	(pad "1" smd roundrect
 		(at -4.75 -74.6175)
 		(size 7.5 8.235)
@@ -666,7 +552,7 @@
 		(uuid "6158d41f-a958-4786-900b-8912252d7d0e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/SolarCellv1v2.step"
+	(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"
 		(offset
 			(xyz 65 0 0)
 		)

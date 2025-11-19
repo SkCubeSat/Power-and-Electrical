@@ -475,7 +475,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "solar-panel.kicad_pro",
+    "filename": "left-panel.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -617,7 +617,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "solar-panel.step",
+      "step": "left-panel.step",
       "svg": "",
       "vrml": ""
     },

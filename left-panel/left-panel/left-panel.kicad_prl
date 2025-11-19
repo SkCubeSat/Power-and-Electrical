@@ -53,7 +53,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "solar-panel.kicad_prl",
+    "filename": "left-panel.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
