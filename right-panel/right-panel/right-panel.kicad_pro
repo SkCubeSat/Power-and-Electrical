@@ -614,7 +614,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../Board_Order_GRB/Right-Panel/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "right-panel.step",
