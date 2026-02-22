@@ -962,6 +962,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 139.7) (xy 44.45 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7082ce48-86c9-4cf5-842a-68d6550a9222")
+	)
+	(wire
+		(pts
 			(xy 53.34 58.42) (xy 53.34 64.77)
 		)
 		(stroke
@@ -999,6 +1009,16 @@
 			(type default)
 		)
 		(uuid "957b6860-c5a7-4406-950f-c3e0fc6defa7")
+	)
+	(wire
+		(pts
+			(xy 34.29 142.24) (xy 30.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977ff4c2-5d3e-4e33-b775-f711ed47c634")
 	)
 	(wire
 		(pts
@@ -1072,6 +1092,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 148.59) (xy 34.29 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d71978-a265-43f8-a310-cb2ca7797eed")
+	)
+	(wire
+		(pts
 			(xy 33.02 133.35) (xy 33.02 127)
 		)
 		(stroke
@@ -1119,6 +1149,16 @@
 			(justify left bottom)
 		)
 		(uuid "6be21b36-48ec-4fb9-bfb5-4a42e896a994")
+	)
+	(label "-X Serial Out"
+		(at 34.29 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c80540a-f262-4564-b723-49133b5dea96")
 	)
 	(label "12VPDM"
 		(at 35.56 95.25 0)
@@ -1179,6 +1219,26 @@
 			(justify left bottom)
 		)
 		(uuid "c7297908-0621-4d89-98e7-1c857485f9f2")
+	)
+	(label "+X Drain"
+		(at 53.34 74.93 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d04f42bd-e822-449e-840e-378a3f2099dc")
+	)
+	(label "+X Drain"
+		(at 35.56 74.93 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffea4bcf-b62c-49f4-8d79-30f07e763b89")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -2503,72 +2563,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b2671a4-33b1-46f6-b9ed-7a630c3ddbd7")
-		(property "Reference" "#PWR01"
-			(at 53.34 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9baabd4a-c54a-41c0-8321-e1f1077af8bf")
-		)
-		(instances
-			(project ""
-				(path "/ba48ae00-8534-40f4-887e-27846777c670"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 135.89 50.8 0)
 		(unit 1)
@@ -2703,6 +2697,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 25.4 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f242791-09c9-4330-9ffa-080dcba3f012")
+		(property "Reference" "J3"
+			(at 26.035 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 26.035 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CNN_GNSS_Footprint:DF13-2P"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 25.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d4ecf15-9cfd-4392-9fa5-bf1969377858")
+		)
+		(pin "2"
+			(uuid "76585db9-8b4a-4cfc-a2ee-e2a5f82f61b0")
+		)
+		(instances
+			(project "-x_blank_face"
+				(path "/ba48ae00-8534-40f4-887e-27846777c670"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 165.1 115.57 0)
 		(unit 1)
@@ -2767,6 +2829,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 44.45 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a81b02a4-3530-42cb-8b31-7622f99fb51e")
+		(property "Reference" "#PWR01"
+			(at 44.45 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.228 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "195bb3e3-0e29-45f1-bbff-3b5a51142434")
+		)
+		(instances
+			(project "-x_blank_face"
+				(path "/ba48ae00-8534-40f4-887e-27846777c670"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 187.96 114.3 0)
 		(unit 1)
@@ -2825,72 +2952,6 @@
 			(project "-x_blank_face"
 				(path "/ba48ae00-8534-40f4-887e-27846777c670"
 					(reference "H16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 35.56 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1e29fa7-c86a-42a7-864f-bc386c6b0cda")
-		(property "Reference" "#PWR02"
-			(at 35.56 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c089a098-7c65-4e59-95f9-b8faf6c6ec6d")
-		)
-		(instances
-			(project "-x_blank_face"
-				(path "/ba48ae00-8534-40f4-887e-27846777c670"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)

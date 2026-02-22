@@ -181,7 +181,7 @@
 		(uuid "75999e7c-5b5c-45a9-9460-31f0c498feff")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/models/UB3C-50RF1.stp"
+	(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/-x_blank_face/-x_blank_face/models/UB3C-75RF1.stp"
 		(offset
 			(xyz 0 0 0)
 		)
