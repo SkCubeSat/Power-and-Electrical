@@ -646,7 +646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Solar_cell:Solar_Cell_Lightricity_S8040_CIC"
+		(property "Footprint" "Solar_cell:Solar_Cell_Lightricity_S8040_CIC_Shorter_Tabs"
 			(at 149.86 63.246 90)
 			(effects
 				(font
@@ -1100,7 +1100,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connection_Pads:2_Hirose_Pin"
+		(property "Footprint" "Connection_Pads:DF13_Horizontal"
 			(at 139.7 55.88 0)
 			(effects
 				(font
