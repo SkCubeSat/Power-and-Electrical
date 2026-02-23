@@ -2722,7 +2722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CNN_GNSS_Footprint:DF13-2P"
+		(property "Footprint" "CNN_GNSS_Footprint:CON2_1X2_UR_DF13"
 			(at 25.4 139.7 0)
 			(effects
 				(font
@@ -3047,7 +3047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CNN_GNSS_Footprint:DF13-2P"
+		(property "Footprint" "CNN_GNSS_Footprint:CON2_1X2_UR_DF13"
 			(at 24.13 124.46 0)
 			(effects
 				(font
