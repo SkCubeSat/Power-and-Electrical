@@ -1639,7 +1639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Solar_cell:Solar_Cell_Lightricity_S8040_CIC"
+		(property "Footprint" "Solar_cell:Solar_Cell_Lightricity_S8040_CIC_Shorter_Tabs"
 			(at 104.14 82.804 90)
 			(effects
 				(font
