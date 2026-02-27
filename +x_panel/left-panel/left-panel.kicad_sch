@@ -1443,7 +1443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connection_Pads:2_Hirose_Pin"
+		(property "Footprint" "Connection_Pads:DF13_Horizontal"
 			(at 123.19 83.82 0)
 			(effects
 				(font

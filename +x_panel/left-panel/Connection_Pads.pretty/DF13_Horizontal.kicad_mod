@@ -354,7 +354,6 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/DF13A-2P-1.25H.stp"
-		(hide yes)
 		(offset
 			(xyz -12.25 -0.9 -22.7)
 		)
