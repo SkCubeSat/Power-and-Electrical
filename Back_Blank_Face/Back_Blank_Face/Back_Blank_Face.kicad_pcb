@@ -78,6 +78,98 @@
 		)
 	)
 	(net 0 "")
+	(footprint "Small_Mounting_Holes:2.0mm_Mounting_Hole"
+		(layer "F.Cu")
+		(uuid "0dceb393-8bc9-41ab-912e-6f51c8029651")
+		(at 166.4 32.99)
+		(property "Reference" "H21"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9bdc4ee7-6df9-47c1-be7e-586de670be64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a7d7acf-5740-4fa3-bf86-489cd8e4b727")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4310cfa3-9b1a-4cbf-8b35-6494ff3a1711")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "267dc937-b895-41a0-8175-771ad69ecf89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/cb2fd161-4143-45d9-aa9c-2ba7171f134f")
+		(sheetname "/")
+		(sheetfile "Back_Blank_Face.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.08 -0.04)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "5557d592-353e-42c7-a808-576547528ae8")
+		)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.33 -0.04)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e0830503-134b-4430-ac7f-1d70500c4757")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.02 -0.04)
+			(size 2 2)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "eab4482b-a8aa-4232-b0e0-d4af2890b3ea")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "2e4f21b8-f740-4f26-a7ad-221c5218b2b2")
@@ -258,6 +350,98 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Small_Mounting_Holes:2.0mm_Mounting_Hole"
+		(layer "F.Cu")
+		(uuid "3197a57f-f881-446b-9165-5bfd824c4801")
+		(at 121.56 -20.68)
+		(property "Reference" "H17"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b325b472-6200-4b70-876e-a6054a40070e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37e53fb4-42b7-4bf2-be39-abaf1d61c47d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5ec9b70-538b-4646-9745-cc91305b38cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ead6a4f-2749-4662-98d2-1f2cf01e6306")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/80750a05-c5fd-4241-88a7-1a5ba9582e86")
+		(sheetname "/")
+		(sheetfile "Back_Blank_Face.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.08 -0.04)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "a24721d0-e9d5-4db7-bde7-93ae5816dce8")
+		)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.33 -0.04)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "74c3f663-5003-40c8-88d8-aada472fc00b")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.02 -0.04)
+			(size 2 2)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "001aa3b0-feb9-466b-be75-6e09542e90fa")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "3e20447d-df6f-4c6b-897a-8445447620ee")
@@ -348,6 +532,98 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Small_Mounting_Holes:2.0mm_Mounting_Hole"
+		(layer "F.Cu")
+		(uuid "5a95f780-bf14-4222-977d-55d23d8d340b")
+		(at 147.08 -20.7)
+		(property "Reference" "H16"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "322c2116-86bb-4943-b791-65f179c46b73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5900125e-30c1-40d0-9133-e77c80f370c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a8a37b0-3e63-4fc8-9846-8e19a58f7acd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15937c78-f26f-46ee-9a4f-92d5e887a02c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/7b5efc37-9f7a-4a0f-a4d1-3ea4c65b6bec")
+		(sheetname "/")
+		(sheetfile "Back_Blank_Face.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.08 -0.04)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "7d29d709-d07b-4188-8276-a4008b6c714b")
+		)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.33 -0.04)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d3a1d30a-0f5c-43a9-a424-ca22bc7bb65b")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.02 -0.04)
+			(size 2 2)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a337a183-ec70-4cf6-b908-8d9e305d924d")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "70fdb2ef-dc83-4fc8-b98a-ce197a37b22d")
@@ -435,6 +711,190 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "9042474c-2c34-43f7-b9fd-582327e4c7a4")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Small_Mounting_Holes:2.0mm_Mounting_Hole"
+		(layer "F.Cu")
+		(uuid "7241f98d-911a-4730-84fb-7a024d111158")
+		(at 145.21 54.16)
+		(property "Reference" "H20"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aa810f90-9d40-4353-8325-fa71cc2625e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62cbceb7-4f93-43a0-b79b-c5e63b143b87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29655571-6264-49d5-8141-08bd46627520")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24ff7068-8f72-4d97-97ed-e839525bfb77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/f820cf41-41f8-46ff-bc29-3ba75488f809")
+		(sheetname "/")
+		(sheetfile "Back_Blank_Face.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.08 -0.04)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "998e55aa-5064-4f65-b306-80f02acd51d8")
+		)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.33 -0.04)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "cbc557ce-70d3-4a6e-93ef-e59ee15bb2cd")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.02 -0.04)
+			(size 2 2)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c300e2ec-3378-4c6d-9986-6ba6fd55900d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Small_Mounting_Holes:2.0mm_Mounting_Hole"
+		(layer "F.Cu")
+		(uuid "77614f1f-f4e2-421e-bed9-ecd5a2395972")
+		(at 145.2 32.98)
+		(property "Reference" "H22"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1a966a26-6ef1-47cf-bdc2-e1e6a3d6d8d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d303ae6-0ba8-4625-901f-c9e57f996846")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1135e38d-7ff6-4779-b8ea-26b7b5ff9ab0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ea648f6-eea2-433a-b21d-f60c93673238")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/962663fc-33a9-48f2-bf4d-5438f3866c42")
+		(sheetname "/")
+		(sheetfile "Back_Blank_Face.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.08 -0.04)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "d846d7a2-0558-44d2-9252-285f353c4034")
+		)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.33 -0.04)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b360223f-152e-4088-8caf-edca0667f2c2")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.02 -0.04)
+			(size 2 2)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4347e0b3-53e9-428b-abb6-a73ae805e652")
 		)
 		(embedded_fonts no)
 	)
@@ -618,6 +1078,190 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Small_Mounting_Holes:2.0mm_Mounting_Hole"
+		(layer "F.Cu")
+		(uuid "98b1b44a-9857-4192-b4fd-a421ccd28280")
+		(at 147.07 -46.18)
+		(property "Reference" "H15"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "175a57ae-f89b-4184-a0bd-0985b87af57d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfa770a1-61a8-406d-9d1e-07f31de2f5f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c580090b-3ded-4fec-895d-bd63aa941cda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71c35505-88ca-4985-a81b-991a3b09da39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/9ea057a1-93e3-4834-b674-5315a897a163")
+		(sheetname "/")
+		(sheetfile "Back_Blank_Face.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.08 -0.04)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "6492ce53-b66b-47b3-ad14-c4098210a153")
+		)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.33 -0.04)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7fa9d2d1-d3b9-491e-8bc9-8c58bca04217")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.02 -0.04)
+			(size 2 2)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "395daba6-8d20-4c4a-90c2-4b4b313c67c6")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Small_Mounting_Holes:2.0mm_Mounting_Hole"
+		(layer "F.Cu")
+		(uuid "b9f0a48a-9a66-46c3-bc44-de5016d511be")
+		(at 166.38 54.17)
+		(property "Reference" "H19"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f19306e3-eb28-460b-9e37-e32eeeb5a266")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d28a45ae-aeee-41dd-9d00-4e4500ecf645")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62da5734-8b62-4700-9c2f-103540493c4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2ff4e48-22a1-412d-a8df-690c46cb464c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/e2423343-fe9d-475c-b74b-dff3b5a55f00")
+		(sheetname "/")
+		(sheetfile "Back_Blank_Face.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.08 -0.04)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "2ad07180-1957-4630-be35-830c2074164d")
+		)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.33 -0.04)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7e2af3a6-273b-4b62-b8b8-73104fb22d37")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.02 -0.04)
+			(size 2 2)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "bcad02e5-bd60-47da-8af1-2f319be9e42c")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "bfcf303c-d63c-4890-84ed-02f015657c63")
@@ -705,6 +1349,98 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "6c823667-37f6-4cb0-a3cc-d23197fd9709")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Small_Mounting_Holes:2.0mm_Mounting_Hole"
+		(layer "F.Cu")
+		(uuid "c8af839d-9a30-4f42-b9f1-e29957e0bce2")
+		(at 121.53 -46.16)
+		(property "Reference" "H18"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e2ac77d0-6055-4ab9-bcea-d45012ea2c77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "687119eb-262f-4da4-8fc8-7ab39d27b253")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b51780f1-727f-40ac-bec6-4e0e99ebfb81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d24acdfb-4eb3-4e64-b829-408385ad1dff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/490768d0-108e-485e-985e-88ccadedb41c")
+		(sheetname "/")
+		(sheetfile "Back_Blank_Face.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.08 -0.04)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "3418df57-c8ff-41fd-a36f-6be7a1b0e7d6")
+		)
+		(fp_circle
+			(center -0.02 -0.04)
+			(end 2.33 -0.04)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "44d47b17-afad-4bb1-a88a-9ecf5da7b553")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.02 -0.04)
+			(size 2 2)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cc4d019c-3c13-4a27-8d7c-74ffed37479f")
 		)
 		(embedded_fonts no)
 	)
@@ -978,28 +1714,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_circle
-		(center 121.54 -46.22)
-		(end 122.54 -46.22)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "16f68569-c6b7-4304-8445-8b969abe64fc")
-	)
-	(gr_circle
-		(center 166.39 54.13)
-		(end 167.39 54.13)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "17abdd25-dfbf-4199-b51b-e37b68a90e1f")
-	)
 	(gr_line
 		(start 170.79 180.03)
 		(end 162.79 180.03)
@@ -1041,17 +1755,6 @@
 		(layer "Edge.Cuts")
 		(uuid "28e791a7-0769-47df-a429-eb8844306f7a")
 	)
-	(gr_circle
-		(center 166.39 32.93)
-		(end 167.39 32.93)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "30dab58e-5de6-42bc-b195-fa6299905ef7")
-	)
 	(gr_line
 		(start 106.79 237.53)
 		(end 106.79 232.53)
@@ -1061,17 +1764,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "315fac3e-12b4-4ee7-9035-ac27cebfe50e")
-	)
-	(gr_circle
-		(center 145.19 54.13)
-		(end 146.19 54.13)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "3c14fb65-f262-4db3-82c9-e59ba4c04a8a")
 	)
 	(gr_line
 		(start 110.79 185.03)
@@ -1133,17 +1825,6 @@
 		(layer "Edge.Cuts")
 		(uuid "497006fe-8ce4-4306-86bf-fca00ec30efd")
 	)
-	(gr_circle
-		(center 145.19 32.93)
-		(end 146.19 32.93)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "50d066c0-2ddb-47c9-852b-e3de632f9368")
-	)
 	(gr_line
 		(start 98.79 180.03)
 		(end 98.79 185.03)
@@ -1153,17 +1834,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "517c567b-637c-4a6c-ad1e-9cfbfb5db017")
-	)
-	(gr_circle
-		(center 147.04 -46.22)
-		(end 148.04 -46.22)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "5492046e-d19d-4cf0-a0cf-6a7d6ccb3c4f")
 	)
 	(gr_line
 		(start 177.79 263.03)
@@ -1256,17 +1926,6 @@
 		(layer "Edge.Cuts")
 		(uuid "aec1eeed-912b-48f3-b292-4e423f2464a1")
 	)
-	(gr_circle
-		(center 121.54 -20.72)
-		(end 122.54 -20.72)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "b87c90ca-8249-41e9-9668-824e9f1f4013")
-	)
 	(gr_line
 		(start 161.79 -32.47)
 		(end 167.79 -32.47)
@@ -1347,20 +2006,9 @@
 		(layer "Edge.Cuts")
 		(uuid "e95d43c7-1e39-49fe-af83-5d4d8713387f")
 	)
-	(gr_circle
-		(center 147.04 -20.72)
-		(end 148.04 -20.72)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "f1eab5d5-5973-4d29-86e7-1e5a72faa272")
-	)
 	(gr_rect
-		(start 147.12 63.44)
-		(end 165.07 68.55)
+		(start 147.98 62.98)
+		(end 163.98 68)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1389,6 +2037,82 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fd5b6c32-2b4c-4767-abcc-d9bff6df67e7")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "329a8639-2b42-46c1-9b41-d1c3a06d5a42")
+		(pts
+			(xy 163.72 68.04) (xy 163.72 63.02)
+		)
+		(height 5.2)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "5.02"
+			(at 167.77 65.53 90)
+			(layer "Dwgs.User")
+			(uuid "329a8639-2b42-46c1-9b41-d1c3a06d5a42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "362ee57e-d99c-4042-a6fc-dbb1db8c79c3")
+		(pts
+			(xy 147.97 68.81) (xy 163.97 68.81)
+		)
+		(height 3.65)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "16"
+			(at 155.97 71.31 0)
+			(layer "Dwgs.User")
+			(uuid "362ee57e-d99c-4042-a6fc-dbb1db8c79c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
 	(embedded_fonts no)
 )

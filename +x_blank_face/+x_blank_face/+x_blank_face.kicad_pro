@@ -490,7 +490,7 @@
       "plot": "../../../Board_Order_GRB/Right-Face/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "+x_blank_face.step",
       "svg": "",
       "vrml": ""
     },

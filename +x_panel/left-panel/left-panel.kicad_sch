@@ -658,18 +658,6 @@
 		)
 		(uuid 88023c14-fb7f-487f-b9d3-76f1c880a495)
 	)
-	(rectangle
-		(start 96.52 50.8)
-		(end 134.62 115.57)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c29eaafe-7af3-49ef-831a-8596a0254c4e)
-	)
 	(text "Side Panel\n"
 		(exclude_from_sim no)
 		(at 115.824 48.768 0)
@@ -705,7 +693,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 52.07) (xy 124.46 78.74)
+			(xy 125.73 52.07) (xy 125.73 81.28)
 		)
 		(stroke
 			(width 0)
@@ -715,13 +703,33 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 104.14) (xy 124.46 81.28)
+			(xy 125.73 81.28) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23870b39-0a5e-472c-85d4-9c73b0f16ea4")
+		(uuid "283fd3af-1555-4cde-8808-5b15177bd4b3")
+	)
+	(wire
+		(pts
+			(xy 125.73 104.14) (xy 125.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c098e03-5225-4de5-ad55-ce656259b0b0")
+	)
+	(wire
+		(pts
+			(xy 125.73 83.82) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8ad9d2-4820-463d-b241-8cd4d4b2745f")
 	)
 	(wire
 		(pts
@@ -745,7 +753,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 52.07) (xy 124.46 52.07)
+			(xy 104.14 52.07) (xy 125.73 52.07)
 		)
 		(stroke
 			(width 0)
@@ -755,7 +763,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 104.14) (xy 124.46 104.14)
+			(xy 104.14 104.14) (xy 125.73 104.14)
 		)
 		(stroke
 			(width 0)
@@ -840,7 +848,7 @@
 	(symbol
 		(lib_name "Pad_1")
 		(lib_id "Connection_Pads:Pad")
-		(at 128.27 76.2 180)
+		(at 120.65 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -848,7 +856,7 @@
 		(dnp no)
 		(uuid "1af093ab-e37b-46dd-b262-0a736926954a")
 		(property "Reference" "Solder_Pad3"
-			(at 127 76.8351 0)
+			(at 121.92 85.7249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -858,7 +866,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 128.27 73.66 0)
+			(at 120.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -867,7 +875,7 @@
 			)
 		)
 		(property "Footprint" "Connection_Pads:Series_Connection_Pad"
-			(at 128.27 76.2 0)
+			(at 120.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,7 +884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 76.2 0)
+			(at 120.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +893,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 76.2 0)
+			(at 120.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +1235,7 @@
 	)
 	(symbol
 		(lib_id "Connection_Pads:Hirose_Connector")
-		(at 133.35 80.01 180)
+		(at 115.57 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1235,7 +1243,7 @@
 		(dnp no)
 		(uuid "4dd5fc62-fed8-4e92-b12c-edcc79a9a200")
 		(property "Reference" "Hirose_Connector1"
-			(at 133.35 104.14 0)
+			(at 115.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1253,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 132.08 78.74 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,7 +1262,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Hirose:Hirose_DF13-05P-1.25DSA_1x05_P1.25mm_Vertical"
-			(at 133.35 80.01 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,7 +1271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 80.01 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1272,7 +1280,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 80.01 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,7 +1363,7 @@
 	)
 	(symbol
 		(lib_id "Connection_Pads:Pad")
-		(at 133.35 80.01 180)
+		(at 115.57 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1364,7 +1372,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e2600fe-9510-41c9-bd10-4193a7395170")
 		(property "Reference" "Solder_Pad1"
-			(at 132.08 80.6451 0)
+			(at 116.84 81.9149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1382,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 132.08 78.74 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,7 +1391,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 80.01 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 80.01 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +1409,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 80.01 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,7 +1428,7 @@
 	)
 	(symbol
 		(lib_id "Connection_Pads:Pout_Hirose")
-		(at 123.19 83.82 180)
+		(at 125.73 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1428,7 +1436,7 @@
 		(dnp no)
 		(uuid "7ab3d32a-d8b2-436c-88b7-0d79b0522254")
 		(property "Reference" "Buck1"
-			(at 129.54 84.328 0)
+			(at 119.38 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1444,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 127 82.55 0)
+			(at 121.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1452,7 @@
 			)
 		)
 		(property "Footprint" "Connection_Pads:DF13_Horizontal"
-			(at 123.19 83.82 0)
+			(at 125.73 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +1461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 83.82 0)
+			(at 125.73 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 83.82 0)
+			(at 125.73 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1495,7 @@
 	)
 	(symbol
 		(lib_id "Connection_Pads:Series_Connection")
-		(at 133.35 80.01 180)
+		(at 115.57 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1496,7 +1504,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ceba978-7d93-418e-8328-e872db2f5a38")
 		(property "Reference" "Connection1"
-			(at 132.08 80.6451 0)
+			(at 116.84 81.9149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +1514,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 132.08 78.74 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,7 +1523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 80.01 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +1532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 80.01 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +1541,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 80.01 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +1951,7 @@
 	(symbol
 		(lib_name "Pad_2")
 		(lib_id "Connection_Pads:Pad")
-		(at 133.35 80.01 180)
+		(at 115.57 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1952,7 +1960,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc99df34-7a0f-4500-b6b0-03b560754db6")
 		(property "Reference" "Solder_Pad2"
-			(at 132.08 80.6451 0)
+			(at 116.84 81.9149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +1970,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 132.08 78.74 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +1979,7 @@
 			)
 		)
 		(property "Footprint" "Connection_Pads:Series_Connection_Pad"
-			(at 133.35 80.01 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 80.01 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +1997,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 80.01 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

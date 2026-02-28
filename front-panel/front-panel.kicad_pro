@@ -508,7 +508,7 @@
       "plot": "../../Board_Order_GRB/Front-Panel/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "front-panel.step",
       "svg": "",
       "vrml": ""
     },

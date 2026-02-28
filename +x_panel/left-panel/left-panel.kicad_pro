@@ -617,7 +617,7 @@
       "plot": "../../../Board_Order_GRB/Left-Panel/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "left-panel.step",
+      "step": "+x-panel.step",
       "svg": "",
       "vrml": ""
     },
