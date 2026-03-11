@@ -54,6 +54,18 @@
 		)
 	)
 	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0.07 -14.03) (xy 13.99 -14.03) (xy 14 -13.03) (xy 14.02 -0.07)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "0a2babfc-abda-4b9c-ab55-c94ea1a6efc4")
+	)
 	(fp_line
 		(start 0 -67.4)
 		(end 0 -80)
@@ -629,6 +641,18 @@
 				)
 			)
 		)
+	)
+	(pad "" smd rect
+		(at 7.045 -46.98 90)
+		(size 65.9 13.95)
+		(layers "F.Mask")
+		(uuid "d4d815e4-9641-4de9-9edc-f3d5f8e66748")
+	)
+	(pad "" smd rect
+		(at 26.975 -40 90)
+		(size 79.86 25.91)
+		(layers "F.Mask")
+		(uuid "c463011e-440e-41ab-8461-4f32be4f4dec")
 	)
 	(pad "1" smd roundrect
 		(at -4.75 -74.6175)
