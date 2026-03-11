@@ -54,6 +54,18 @@
 		)
 	)
 	(attr smd)
+	(fp_poly
+		(pts
+			(xy -26.655 12.105) (xy -12.66 12.105) (xy -12.66 26.057802)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "d25b8021-065e-4ca7-9e14-7a4067a1546b")
+	)
 	(fp_line
 		(start -26.74 -41.23)
 		(end -26.74 -53.83)
@@ -528,6 +540,18 @@
 			)
 		)
 	)
+	(pad "" smd rect
+		(at -19.6575 -20.815 90)
+		(size 65.84 13.995)
+		(layers "F.Mask")
+		(uuid "93b794fa-0178-42e4-bff8-f029956957b3")
+	)
+	(pad "" smd rect
+		(at 0.2375 -13.838599 90)
+		(size 79.792802 25.795)
+		(layers "F.Mask")
+		(uuid "1f106997-0de5-4b26-be6e-bac24c57f0d7")
+	)
 	(pad "1" smd rect
 		(at -31.3 -12.915)
 		(size 6.68 7.11)
@@ -557,12 +581,11 @@
 		(uuid "4810042e-f93e-4e66-b14d-1dcf1335e697")
 	)
 	(pad "2" smd roundrect
-		(at -6.925 -15.545)
+		(at -6.93 -15.54)
 		(size 16.17 57.37)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1067235859)
-		(clearance 0)
-		(uuid "fce06452-a4e6-498f-a1df-1c871d3e9763")
+		(uuid "d59f302c-25d0-44cf-a1e6-c3ca9088e68b")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"

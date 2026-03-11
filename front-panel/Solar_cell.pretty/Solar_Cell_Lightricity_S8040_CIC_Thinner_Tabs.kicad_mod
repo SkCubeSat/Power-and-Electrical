@@ -56,7 +56,7 @@
 	(attr smd)
 	(fp_poly
 		(pts
-			(xy -9.84 32.71) (xy 4.155 32.71) (xy 4.155 32.71) (xy 4.155 46.662802)
+			(xy -9.84 32.71) (xy 4.155 32.71) (xy 4.155 46.662802)
 		)
 		(stroke
 			(width 0)
@@ -395,16 +395,6 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "8fc152ed-5ddd-47fb-a72e-e508323ead37")
-	)
-	(fp_line
-		(start -10.45 33.1)
-		(end 3.55 47.35)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "96392fa9-0b2b-4ec6-a3c3-368e2bd67375")
 	)
 	(fp_line
 		(start -10.43 -33.72)
