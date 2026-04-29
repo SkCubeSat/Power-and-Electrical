@@ -614,7 +614,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../Board_Order_GRB/Right-Panel/",
+      "plot": "../../Solar_Panel_Engineering_Drawings/-x_panel/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "right-panel.step",

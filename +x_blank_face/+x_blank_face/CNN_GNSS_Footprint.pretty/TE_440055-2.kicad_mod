@@ -211,15 +211,15 @@
 		(uuid "06ea9ee4-9fac-41ee-a1be-8e58966dda7d")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/-x_blank_face/-x_blank_face/440055-2.step"
+	(model "${KIPRJMOD}/DF13-2P-1.25DS(25).STEP"
 		(offset
-			(xyz 1 -6 2.5)
+			(xyz 16.5 -2 27.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz 90 90 90)
 		)
 	)
 )

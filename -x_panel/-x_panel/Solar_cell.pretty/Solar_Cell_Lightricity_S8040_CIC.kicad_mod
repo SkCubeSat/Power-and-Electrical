@@ -56,7 +56,7 @@
 	(attr smd)
 	(fp_poly
 		(pts
-			(xy 0.07 -14.03) (xy 13.99 -14.03) (xy 14 -13.03) (xy 14.02 -0.07)
+			(xy -0.12 -13.98) (xy 13.99 -14.03) (xy 14 -13.03) (xy 13.99 0.11)
 		)
 		(stroke
 			(width 0)
@@ -643,14 +643,14 @@
 		)
 	)
 	(pad "" smd rect
-		(at 7.045 -46.98 90)
-		(size 65.9 13.95)
+		(at 6.93 -47.045 90)
+		(size 66.13 14.12)
 		(layers "F.Mask")
 		(uuid "d4d815e4-9641-4de9-9edc-f3d5f8e66748")
 	)
 	(pad "" smd rect
-		(at 26.975 -40 90)
-		(size 79.86 25.91)
+		(at 27.05 -40 90)
+		(size 80.22 26.12)
 		(layers "F.Mask")
 		(uuid "c463011e-440e-41ab-8461-4f32be4f4dec")
 	)

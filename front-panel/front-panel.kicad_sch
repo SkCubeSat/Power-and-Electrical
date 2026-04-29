@@ -624,6 +624,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 97.79) (xy 123.19 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ac0d94-667f-401c-9386-d165fa163937")
+	)
+	(wire
+		(pts
 			(xy 146.05 121.92) (xy 153.67 121.92)
 		)
 		(stroke
@@ -654,33 +664,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 90.17) (xy 130.81 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a125f53-682d-42c4-ba9f-08e01260eb5d")
-	)
-	(wire
-		(pts
-			(xy 130.81 139.7) (xy 146.05 139.7)
+			(xy 123.19 139.7) (xy 146.05 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6620e9a2-7c87-4591-9405-2cbc23d6da34")
-	)
-	(wire
-		(pts
-			(xy 130.81 66.04) (xy 130.81 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3b9b6b0-19cf-4ec5-840a-cd297917072c")
 	)
 	(wire
 		(pts
@@ -691,6 +681,16 @@
 			(type default)
 		)
 		(uuid "a43a3e01-bc09-4f29-a409-5bdce374f701")
+	)
+	(wire
+		(pts
+			(xy 123.19 66.04) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a35da7-e5da-4fb1-b1d0-50139d8435d1")
 	)
 	(wire
 		(pts
@@ -724,7 +724,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 66.04) (xy 130.81 66.04)
+			(xy 146.05 66.04) (xy 123.19 66.04)
 		)
 		(stroke
 			(width 0)
@@ -741,6 +741,134 @@
 			(type default)
 		)
 		(uuid "f945f690-c5c0-4a8d-bde3-9b01120be994")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 233.68 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b7334e6-4d96-456d-91e1-51eb713130a7")
+		(property "Reference" "H18"
+			(at 236.22 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 236.22 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 233.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 233.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "front-panel"
+				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
+					(reference "H18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 163.83 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f1b3bb9-61d9-4557-a0e1-dd4bf4d08f0a")
+		(property "Reference" "H11"
+			(at 166.37 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 166.37 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 163.83 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 163.83 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "front-panel"
+				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
@@ -1006,134 +1134,6 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 142.24 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41777d86-4cc4-419c-bd0e-92abd9d77569")
-		(property "Reference" "H10"
-			(at 144.78 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 144.78 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm"
-			(at 142.24 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 142.24 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "front-panel"
-				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
-					(reference "H10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 161.29 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44d3fae2-7bd1-4a3c-b684-a5858c76d3be")
-		(property "Reference" "H12"
-			(at 163.83 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 163.83 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm"
-			(at 161.29 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 161.29 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "front-panel"
-				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
-					(reference "H12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
 		(at 101.6 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1198,70 +1198,6 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 161.29 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53c5236b-29d0-4f17-aab9-b68f33754204")
-		(property "Reference" "H11"
-			(at 163.83 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 163.83 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm"
-			(at 161.29 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 161.29 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "front-panel"
-				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
-					(reference "H11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
 		(at 142.24 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1288,7 +1224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 142.24 147.32 0)
 			(effects
 				(font
@@ -1319,6 +1255,70 @@
 			(project "front-panel"
 				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
 					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 142.24 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "800d6aec-548c-4547-8d5e-29748ea9564c")
+		(property "Reference" "H10"
+			(at 144.78 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 144.78 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 142.24 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 142.24 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "front-panel"
+				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -1383,6 +1383,70 @@
 			(project "front-panel"
 				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
 					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 207.01 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8871bbb9-02e9-4167-967d-12e39a4e4816")
+		(property "Reference" "H16"
+			(at 209.55 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 209.55 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 207.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 207.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "front-panel"
+				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
+					(reference "H16")
 					(unit 1)
 				)
 			)
@@ -1587,6 +1651,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 232.41 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a34fc4e5-4213-4962-b53e-3bde676d8780")
+		(property "Reference" "H17"
+			(at 234.95 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 234.95 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "front-panel"
+				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
+					(reference "H17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Solar_Cell")
 		(at 146.05 73.66 0)
 		(unit 1)
@@ -1655,7 +1783,7 @@
 	)
 	(symbol
 		(lib_id "Connection_Pads:Pout_Hirose")
-		(at 132.08 85.09 0)
+		(at 124.46 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1663,7 +1791,7 @@
 		(dnp no)
 		(uuid "bcce7f7f-6a97-472d-b178-838c204b89cb")
 		(property "Reference" "Buck2"
-			(at 135.636 87.63 0)
+			(at 128.016 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +1799,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 127.762 83.82 0)
+			(at 120.142 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1679,7 +1807,7 @@
 			)
 		)
 		(property "Footprint" "Connection_Pads:2_Hirose_Pin"
-			(at 132.08 85.09 0)
+			(at 124.46 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +1816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 85.09 0)
+			(at 124.46 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1825,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 85.09 0)
+			(at 124.46 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,6 +1843,70 @@
 			(project "front-panel"
 				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
 					(reference "Buck2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 207.01 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0bc27e4-69de-49fb-a7ee-407010441fc1")
+		(property "Reference" "H15"
+			(at 209.55 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 209.55 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 207.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 207.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "front-panel"
+				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
+					(reference "H15")
 					(unit 1)
 				)
 			)
@@ -1910,6 +2102,70 @@
 			(project "front-panel"
 				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 163.83 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5b73be8-cc86-40de-a961-9de384c00642")
+		(property "Reference" "H12"
+			(at 166.37 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 166.37 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 163.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 163.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "front-panel"
+				(path "/0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
+					(reference "H12")
 					(unit 1)
 				)
 			)
