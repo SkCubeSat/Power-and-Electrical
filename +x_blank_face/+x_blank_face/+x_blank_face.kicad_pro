@@ -655,7 +655,7 @@
       {
         "filename": "+x_blank_face.kicad_sch",
         "name": "+x_blank_face",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "32043571-eec5-4ab8-8654-7712a5bbd21c"
       }
     ],
     "used_designators": "",
@@ -664,7 +664,7 @@
   "sheets": [
     [
       "32043571-eec5-4ab8-8654-7712a5bbd21c",
-      "Root"
+      "+x_blank_face"
     ]
   ],
   "text_variables": {},
