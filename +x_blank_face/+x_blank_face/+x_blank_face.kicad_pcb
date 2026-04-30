@@ -2743,12 +2743,6 @@
 		(path "/79ec3621-23f1-48ee-88b5-ead30b3f79f5")
 		(sheetname "/")
 		(sheetfile "+x_blank_face.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3154,17 +3148,6 @@
 			(net "GND")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
-			(teardrops
-				(best_length_ratio 0.5)
-				(max_length 1)
-				(best_width_ratio 1)
-				(max_width 2)
-				(curved_edges yes)
-				(filter_ratio 0.9)
-				(enabled yes)
-				(allow_two_segments yes)
-				(prefer_zone_connections yes)
-			)
 			(uuid "04a80291-6ac6-4787-8315-8a0aeee1faa8")
 		)
 		(pad "2" thru_hole oval
@@ -3176,17 +3159,6 @@
 			(net "GND")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
-			(teardrops
-				(best_length_ratio 0.5)
-				(max_length 1)
-				(best_width_ratio 1)
-				(max_width 2)
-				(curved_edges yes)
-				(filter_ratio 0.9)
-				(enabled yes)
-				(allow_two_segments yes)
-				(prefer_zone_connections yes)
-			)
 			(uuid "49612964-e3a0-499c-823c-319ac386f8f6")
 		)
 		(pad "3" thru_hole oval
@@ -3258,7 +3230,7 @@
 		(embedded_fonts no)
 		(model "C:/Users/hayla/Downloads/DF13-8P-1.25DSA(25)_CL0536-0107-5-25_3DDrawing_STEP_0001217332S/DF13-8P-1.25DSA.stp"
 			(offset
-				(xyz -11.55 -25.6 0)
+				(xyz -11.55 -25.6 1.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4420,7 +4392,7 @@
 		(uuid "26973453-c718-4e6c-94b1-ef27db32a35e")
 	)
 	(segment
-		(start 191.935 21.806346)
+		(start 191.642107 22.099239)
 		(end 182.870673 30.870673)
 		(width 1)
 		(layer "F.Cu")
@@ -4429,7 +4401,7 @@
 	)
 	(segment
 		(start 191.935 21.18)
-		(end 191.935 21.806346)
+		(end 191.935 21.392132)
 		(width 1)
 		(layer "F.Cu")
 		(net "/+X Drain")
@@ -4547,6 +4519,15 @@
 		(layer "F.Cu")
 		(net "/+X Drain")
 		(uuid "02612481-d939-46a6-bde3-c170faecef01")
+	)
+	(arc
+		(start 191.642107 22.099239)
+		(mid 191.85888 21.774816)
+		(end 191.935 21.392132)
+		(width 1)
+		(layer "F.Cu")
+		(net "/+X Drain")
+		(uuid "2ca88d54-abc0-4cd1-bf5a-1136d4a2090a")
 	)
 	(arc
 		(start 185.7 40.642136)
@@ -4692,14 +4673,14 @@
 	)
 	(segment
 		(start 167.428932 142.528932)
-		(end 174.95 150.05)
+		(end 174.364214 149.464214)
 		(width 1)
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_2)")
 		(uuid "99157430-8dc9-4f5e-96eb-2b92bed8bfbe")
 	)
 	(segment
-		(start 174.95 150.05)
+		(start 174.95 150.878427)
 		(end 174.95 151.1)
 		(width 1)
 		(layer "F.Cu")
@@ -4713,6 +4694,15 @@
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_2)")
 		(uuid "f7d5289f-0d44-406c-bb8b-62764d399346")
+	)
+	(arc
+		(start 174.95 150.878427)
+		(mid 174.797759 150.11306)
+		(end 174.364214 149.464214)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_2)")
+		(uuid "355a1212-aff7-448d-89ce-2fa1853f88e0")
 	)
 	(arc
 		(start 164.5 11.042136)
