@@ -84,7 +84,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../../Board_Order_GRB/Back_Face/")
+			(outputdirectory "../../../Board_Order_3/minus_y_cover/")
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.5mm"
@@ -1787,6 +1787,36 @@
 		(uuid "28e791a7-0769-47df-a429-eb8844306f7a")
 	)
 	(gr_line
+		(start 97.79 219.03)
+		(end 117.79 219.03)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b74864f3-1b6b-4a72-9df7-ae525afb563e")
+	)
+	(gr_line
+		(start 97.79 224.03)
+		(end 97.79 219.03)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7475ce5b-aae1-4af0-8ee9-75f33005b168")
+	)
+	(gr_line
+		(start 97.79 224.03)
+		(end 117.79 224.03)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5fe4d143-6f53-4638-b1e2-8d0ade204b2d")
+	)
+	(gr_line
 		(start 98.79 180.03)
 		(end 98.79 185.03)
 		(stroke
@@ -1918,6 +1948,16 @@
 		(uuid "cdd5f683-ddef-4a7f-8d4c-46d54b740245")
 	)
 	(gr_line
+		(start 117.79 224.03)
+		(end 117.79 219.03)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6fbccbe8-1c7d-4601-9578-65ad3a26957d")
+	)
+	(gr_line
 		(start 125.79 180.03)
 		(end 125.79 185.03)
 		(stroke
@@ -1978,6 +2018,46 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "f3f55eb8-5990-4924-b0b4-993bab4e07b1")
+	)
+	(gr_line
+		(start 152.29 224.03)
+		(end 152.29 219.03)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5f979d08-62e5-4e3b-991a-8510891c70de")
+	)
+	(gr_line
+		(start 160.29 219.03)
+		(end 152.29 219.03)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d3945047-1e6b-4c00-ab37-db7a7c663a4e")
+	)
+	(gr_line
+		(start 160.29 224.03)
+		(end 152.29 224.03)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5b139c7e-bba8-40fc-875a-d1e7af84de9a")
+	)
+	(gr_line
+		(start 160.29 224.03)
+		(end 160.29 219.03)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a10bda0f-ecda-488d-8440-552d4fcf5edc")
 	)
 	(gr_line
 		(start 161.79 -36.47)
@@ -2089,6 +2169,200 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "56b76492-e2de-4daf-b925-c758bb58bbcd")
+	)
+	(gr_text "   Compact Mag\nHarness Passthrough"
+		(at 148.34 65.43 0)
+		(layer "F.SilkS")
+		(uuid "54518205-8992-4521-a317-7e7bdbfd1a60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Battery Charging \nPort"
+		(at 92.52 7.51 0)
+		(layer "F.SilkS")
+		(uuid "2d9de2eb-9402-4ffc-bdc9-7aeba708aaf8")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "OBC UART0 Serial"
+		(at 93.06 189.29 0)
+		(layer "F.SilkS")
+		(uuid "c391d1fc-43c9-4994-8f96-20caef773dca")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "UHF Antenna\nDeployment ARM"
+		(at 93.17 244.58 0)
+		(layer "F.SilkS")
+		(uuid "0e7df601-3609-4dda-b803-a53802d2a959")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Debug"
+		(at 97.33 230.56 0)
+		(layer "F.SilkS")
+		(uuid "cacf4299-dafd-41fb-a5d9-013da84e823f")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VHF"
+		(at 99.12 227.51 0)
+		(layer "F.SilkS")
+		(uuid "d8f0c47b-2801-4309-936e-4356132355b4")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Solar Panel\nDeployment ARM"
+		(at 108.83 23.91 0)
+		(layer "F.SilkS")
+		(uuid "76a852c7-8e52-453a-aa2c-51d8dc178d1c")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Debug"
+		(at 109.14 230.71 0)
+		(layer "F.SilkS")
+		(uuid "ce1c6daf-dd6c-4df8-9b74-180c22683789")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "UHF"
+		(at 110.55 227.46 0)
+		(layer "F.SilkS")
+		(uuid "c226fac2-d1a1-4a92-bdc3-e7842dbdee13")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "OBC Umbilical Connector"
+		(at 116.59 177.75 0)
+		(layer "F.SilkS")
+		(uuid "bdf57961-8df6-412b-8805-80a48b27ac1e")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V USB CHARGE"
+		(at 144.29 228.48 0)
+		(layer "F.SilkS")
+		(uuid "a0e914b5-8dfc-46da-affd-981039db1e28")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VHF Antenna\nDeployment ARM"
+		(at 149.48 -26.15 0)
+		(layer "F.SilkS")
+		(uuid "8cd5616f-9b69-45cc-b16b-dcfcc156e417")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RBF Port"
+		(at 156.15 7.86 0)
+		(layer "F.SilkS")
+		(uuid "60b124f8-d6bd-4d42-8018-0af1fef99226")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "OBC SD Boot"
+		(at 156.51 190.01 0)
+		(layer "F.SilkS")
+		(uuid "abac9671-0b3f-45f4-a6cb-beed33afa029")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-Y"
+		(at 143.17 -48.18 0)
+		(layer "F.SilkS")
+		(uuid "7a643188-a04a-4018-9110-900b5611cc5a")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 1)
+			)
+			(justify left bottom)
+		)
 	)
 	(dimension
 		(type orthogonal)

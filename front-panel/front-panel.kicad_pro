@@ -524,7 +524,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../Board_Order_GRB/Front-Panel/",
+      "plot": "../../Board_Order_3/plus_y_panel/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "front-panel.step",
