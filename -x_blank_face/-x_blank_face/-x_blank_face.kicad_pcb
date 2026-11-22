@@ -34,6 +34,50 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "White")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+				(color "White")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
@@ -50,6 +94,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -4096,12 +4141,12 @@
 		(uuid "8dec3d0a-f42d-4910-a1a8-116b6034c0d3")
 	)
 	(gr_text "-X"
-		(at 126.54 -81.13 0)
+		(at 130.81 -82.55 0)
 		(layer "F.SilkS")
 		(uuid "4a4e382c-0d63-4a0a-9677-f86f514d79fc")
 		(effects
 			(font
-				(size 10 10)
+				(size 5 5)
 				(thickness 1)
 			)
 			(justify left bottom)
@@ -4755,43 +4800,6 @@
 		(uuid "e8c35c80-9753-4699-8a93-7cd7c967cca6")
 	)
 	(zone
-		(net "Net-(J2-Pin_1)")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 135.26 26.678337) (xy 135.254292 26.336889) (xy 135.253132 26.064653) (xy 135.290437 25.685723)
-				(xy 134.81 25.610537) (xy 134.232763 25.685723) (xy 134.293902 26.048106) (xy 134.301913 26.086782)
-				(xy 134.343702 26.326811) (xy 134.355703 26.477209) (xy 134.36 26.678337)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 134.811654 25.610795) (xy 135.279519 25.684014) (xy 135.287163 25.688678) (xy 135.289354 25.696719)
-				(xy 135.253132 26.064653) (xy 135.254291 26.336926) (xy 135.259801 26.666441) (xy 135.256513 26.674771)
-				(xy 135.248299 26.678335) (xy 135.248103 26.678337) (xy 134.371452 26.678337) (xy 134.363179 26.67491)
-				(xy 134.359755 26.666887) (xy 134.359745 26.666441) (xy 134.355703 26.477209) (xy 134.343702 26.326811)
-				(xy 134.301913 26.086782) (xy 134.293935 26.048268) (xy 134.293872 26.047933) (xy 134.239208 25.723924)
-				(xy 134.239269 25.719704) (xy 134.244744 25.692181) (xy 134.249719 25.684737) (xy 134.254701 25.682865)
-				(xy 134.808341 25.610753)
-			)
-		)
-	)
-	(zone
 		(net "/12VPDM")
 		(layer "F.Cu")
 		(uuid "2e5fa0be-2e1f-4115-b804-47ee9729abe3")
@@ -4960,6 +4968,43 @@
 				(xy 134.624076 163.636075) (xy 134.615484 163.633835) (xy 134.198996 163.321032) (xy 134.196667 163.318703)
 				(xy 133.883864 162.902215) (xy 133.881635 162.893542) (xy 133.886126 162.885884) (xy 134.045998 162.764053)
 				(xy 134.152471 162.682943) (xy 134.361124 162.510908) (xy 134.626247 162.254775) (xy 134.634576 162.251494)
+			)
+		)
+	)
+	(zone
+		(net "Net-(J2-Pin_1)")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 135.26 26.678337) (xy 135.254292 26.336889) (xy 135.253132 26.064653) (xy 135.290437 25.685723)
+				(xy 134.81 25.610537) (xy 134.232763 25.685723) (xy 134.293902 26.048106) (xy 134.301913 26.086782)
+				(xy 134.343702 26.326811) (xy 134.355703 26.477209) (xy 134.36 26.678337)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 134.811654 25.610795) (xy 135.279519 25.684014) (xy 135.287163 25.688678) (xy 135.289354 25.696719)
+				(xy 135.253132 26.064653) (xy 135.254291 26.336926) (xy 135.259801 26.666441) (xy 135.256513 26.674771)
+				(xy 135.248299 26.678335) (xy 135.248103 26.678337) (xy 134.371452 26.678337) (xy 134.363179 26.67491)
+				(xy 134.359755 26.666887) (xy 134.359745 26.666441) (xy 134.355703 26.477209) (xy 134.343702 26.326811)
+				(xy 134.301913 26.086782) (xy 134.293935 26.048268) (xy 134.293872 26.047933) (xy 134.239208 25.723924)
+				(xy 134.239269 25.719704) (xy 134.244744 25.692181) (xy 134.249719 25.684737) (xy 134.254701 25.682865)
+				(xy 134.808341 25.610753)
 			)
 		)
 	)
