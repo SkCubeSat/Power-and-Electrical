@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "-z_blank_face_moved_earth_sensor.kicad_pro",
+    "filename": "-z_blank_face_earth_sensor_changes.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -643,17 +643,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "-z_blank_face_moved_earth_sensor.kicad_sch",
+        "filename": "-z_blank_face_earth_sensor_changes.kicad_sch",
         "name": "Root",
-        "uuid": "3ea9629e-ab7f-4c08-ad76-d1b21da8103f"
+        "uuid": "d392c4d4-7118-41a8-b6c4-a798cd951588"
       }
     ],
-    "used_designators": "H1-12",
+    "used_designators": "H1-11",
     "variants": []
   },
   "sheets": [
     [
-      "3ea9629e-ab7f-4c08-ad76-d1b21da8103f",
+      "d392c4d4-7118-41a8-b6c4-a798cd951588",
       "Root"
     ]
   ],

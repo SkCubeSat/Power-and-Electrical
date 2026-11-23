@@ -173,7 +173,7 @@
 			)
 		)
 		(instances
-			(project "+z_blank_face_earth_sensor_change"
+			(project "-z_blank_face_earth_sensor_changes"
 				(path "/d392c4d4-7118-41a8-b6c4-a798cd951588"
 					(reference "H1")
 					(unit 1)
@@ -249,7 +249,7 @@
 			)
 		)
 		(instances
-			(project "+z_blank_face_earth_sensor_change"
+			(project "-z_blank_face_earth_sensor_changes"
 				(path "/d392c4d4-7118-41a8-b6c4-a798cd951588"
 					(reference "H7")
 					(unit 1)
@@ -325,7 +325,7 @@
 			)
 		)
 		(instances
-			(project "+z_blank_face_earth_sensor_change"
+			(project "-z_blank_face_earth_sensor_changes"
 				(path "/d392c4d4-7118-41a8-b6c4-a798cd951588"
 					(reference "H5")
 					(unit 1)
@@ -401,7 +401,7 @@
 			)
 		)
 		(instances
-			(project "+z_blank_face_earth_sensor_change"
+			(project "-z_blank_face_earth_sensor_changes"
 				(path "/d392c4d4-7118-41a8-b6c4-a798cd951588"
 					(reference "H2")
 					(unit 1)
@@ -477,7 +477,7 @@
 			)
 		)
 		(instances
-			(project "+z_blank_face_earth_sensor_change"
+			(project "-z_blank_face_earth_sensor_changes"
 				(path "/d392c4d4-7118-41a8-b6c4-a798cd951588"
 					(reference "H3")
 					(unit 1)
@@ -553,7 +553,7 @@
 			)
 		)
 		(instances
-			(project "+z_blank_face_earth_sensor_change"
+			(project "-z_blank_face_earth_sensor_changes"
 				(path "/d392c4d4-7118-41a8-b6c4-a798cd951588"
 					(reference "H6")
 					(unit 1)
@@ -629,7 +629,7 @@
 			)
 		)
 		(instances
-			(project "+z_blank_face_earth_sensor_change"
+			(project "-z_blank_face_earth_sensor_changes"
 				(path "/d392c4d4-7118-41a8-b6c4-a798cd951588"
 					(reference "H9")
 					(unit 1)
@@ -705,7 +705,7 @@
 			)
 		)
 		(instances
-			(project "+z_blank_face_earth_sensor_change"
+			(project "-z_blank_face_earth_sensor_changes"
 				(path "/d392c4d4-7118-41a8-b6c4-a798cd951588"
 					(reference "H10")
 					(unit 1)
@@ -781,7 +781,7 @@
 			)
 		)
 		(instances
-			(project "+z_blank_face_earth_sensor_change"
+			(project "-z_blank_face_earth_sensor_changes"
 				(path "/d392c4d4-7118-41a8-b6c4-a798cd951588"
 					(reference "H11")
 					(unit 1)
@@ -857,7 +857,7 @@
 			)
 		)
 		(instances
-			(project "+z_blank_face_earth_sensor_change"
+			(project "-z_blank_face_earth_sensor_changes"
 				(path "/d392c4d4-7118-41a8-b6c4-a798cd951588"
 					(reference "H4")
 					(unit 1)
@@ -933,7 +933,7 @@
 			)
 		)
 		(instances
-			(project "+z_blank_face_earth_sensor_change"
+			(project "-z_blank_face_earth_sensor_changes"
 				(path "/d392c4d4-7118-41a8-b6c4-a798cd951588"
 					(reference "H8")
 					(unit 1)

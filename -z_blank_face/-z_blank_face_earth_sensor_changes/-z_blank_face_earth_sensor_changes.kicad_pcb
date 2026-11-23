@@ -199,7 +199,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/74784194-3643-48e5-9ad1-3ff60cc2b763")
 		(sheetname "/")
-		(sheetfile "+z_blank_face_earth_sensor_change.kicad_sch")
+		(sheetfile "-z_blank_face_earth_sensor_changes.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -306,7 +306,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/0298f125-58dd-4d10-bb0a-671413d81054")
 		(sheetname "/")
-		(sheetfile "+z_blank_face_earth_sensor_change.kicad_sch")
+		(sheetfile "-z_blank_face_earth_sensor_changes.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -413,7 +413,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/c19784f4-09a9-44c9-9cca-8db7e9ccab95")
 		(sheetname "/")
-		(sheetfile "+z_blank_face_earth_sensor_change.kicad_sch")
+		(sheetfile "-z_blank_face_earth_sensor_changes.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -520,7 +520,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ac912c75-33b9-43fa-a062-cb9b3377f03a")
 		(sheetname "/")
-		(sheetfile "+z_blank_face_earth_sensor_change.kicad_sch")
+		(sheetfile "-z_blank_face_earth_sensor_changes.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -627,7 +627,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/68010155-34cb-4679-8156-c56ad0c7173e")
 		(sheetname "/")
-		(sheetfile "+z_blank_face_earth_sensor_change.kicad_sch")
+		(sheetfile "-z_blank_face_earth_sensor_changes.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -734,7 +734,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/cc08fdb3-baff-453f-b187-647995d08e27")
 		(sheetname "/")
-		(sheetfile "+z_blank_face_earth_sensor_change.kicad_sch")
+		(sheetfile "-z_blank_face_earth_sensor_changes.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -841,7 +841,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/336d7961-85ce-4a63-a39c-14dbdd2446e7")
 		(sheetname "/")
-		(sheetfile "+z_blank_face_earth_sensor_change.kicad_sch")
+		(sheetfile "-z_blank_face_earth_sensor_changes.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -948,7 +948,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/c9e0a5b7-3d89-4c0c-bac7-9647c4026a40")
 		(sheetname "/")
-		(sheetfile "+z_blank_face_earth_sensor_change.kicad_sch")
+		(sheetfile "-z_blank_face_earth_sensor_changes.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1055,7 +1055,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/e090f4fe-010b-4548-8e9f-47a9f752baba")
 		(sheetname "/")
-		(sheetfile "+z_blank_face_earth_sensor_change.kicad_sch")
+		(sheetfile "-z_blank_face_earth_sensor_changes.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1162,7 +1162,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ea3b3dfc-d74e-45a3-8b6d-05185dd64871")
 		(sheetname "/")
-		(sheetfile "+z_blank_face_earth_sensor_change.kicad_sch")
+		(sheetfile "-z_blank_face_earth_sensor_changes.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1269,7 +1269,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/8efc91e6-ae61-4d09-b48d-e1035c7c28f9")
 		(sheetname "/")
-		(sheetfile "+z_blank_face_earth_sensor_change.kicad_sch")
+		(sheetfile "-z_blank_face_earth_sensor_changes.kicad_sch")
 		(units
 			(unit
 				(name "A")
