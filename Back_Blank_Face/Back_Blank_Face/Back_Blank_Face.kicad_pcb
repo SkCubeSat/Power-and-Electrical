@@ -94,7 +94,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -3147,7 +3146,7 @@
 	)
 	(gr_text "GND"
 		(at 99.79 225.53 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "16949fcf-a66b-46f6-a9ed-f6086a31dbf3")
 		(effects
 			(font
@@ -3157,8 +3156,8 @@
 		)
 	)
 	(gr_text "RX"
-		(at 100.79 186.53 0)
-		(layer "F.SilkS" knockout)
+		(at 101.79 186.53 0)
+		(layer "F.SilkS")
 		(uuid "21e5ef43-7cff-4b7e-847c-9a6584f84b8c")
 		(effects
 			(font
@@ -3169,7 +3168,7 @@
 	)
 	(gr_text "RX"
 		(at 102.79 225.53 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "cced5032-24bb-4e39-b0ce-b68d79f2b03d")
 		(effects
 			(font
@@ -3180,7 +3179,7 @@
 	)
 	(gr_text "TX"
 		(at 104.79 186.53 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "5db1466f-21de-4da5-9c69-3094e47569d5")
 		(effects
 			(font
@@ -3191,7 +3190,7 @@
 	)
 	(gr_text "TX"
 		(at 105.79 225.53 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "a7eb70f0-642a-4c23-a18a-281e965e1225")
 		(effects
 			(font
@@ -3202,7 +3201,7 @@
 	)
 	(gr_text "RX"
 		(at 107.395 37 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "a9de90ba-71d1-4395-b1c1-e1a23977aee3")
 		(effects
 			(font
@@ -3212,8 +3211,8 @@
 		)
 	)
 	(gr_text "GND"
-		(at 108.79 186.53 0)
-		(layer "F.SilkS" knockout)
+		(at 107.79 186.53 0)
+		(layer "F.SilkS")
 		(uuid "0264c2d8-551b-4f42-833a-479dfb6f00ee")
 		(effects
 			(font
@@ -3224,7 +3223,7 @@
 	)
 	(gr_text "GND"
 		(at 109.79 225.53 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "2d362f42-5462-4b49-807e-80744b1d4457")
 		(effects
 			(font
@@ -3235,7 +3234,7 @@
 	)
 	(gr_text "GND"
 		(at 110.395 37 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "5c27f3d0-a087-4efd-bd94-a5d236b2e237")
 		(effects
 			(font
@@ -3246,7 +3245,7 @@
 	)
 	(gr_text "RX"
 		(at 112.79 225.53 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "4b083135-c71a-4926-9bbe-88b2d4b7ea96")
 		(effects
 			(font
@@ -3257,7 +3256,7 @@
 	)
 	(gr_text "TX"
 		(at 113.395 37 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "0f4a6022-501e-4a85-94bd-6c015067aa4b")
 		(effects
 			(font
@@ -3268,7 +3267,7 @@
 	)
 	(gr_text "TX"
 		(at 115.79 225.53 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "b15b0bbd-60da-43ed-a0e5-f7e08991df26")
 		(effects
 			(font
@@ -3279,7 +3278,7 @@
 	)
 	(gr_text "5V\n"
 		(at 154.29 225.53 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "a3a3c7ca-2ed0-45ef-a9a6-aca8d037d21a")
 		(effects
 			(font
@@ -3290,7 +3289,7 @@
 	)
 	(gr_text "GND"
 		(at 158.29 225.53 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "ac6e89a0-69e3-450c-bd99-90ae167d050f")
 		(effects
 			(font
