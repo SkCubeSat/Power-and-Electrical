@@ -37,14 +37,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
-				(color "White")
+				(color "Black")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Black")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -65,7 +65,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Black")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -73,7 +73,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
-				(color "White")
+				(color "Black")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -1146,7 +1146,7 @@
 			(uuid "0a494415-10ba-46ff-ae2f-5b83a6493f10")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"
+		(model "${KIPRJMOD}/SolarCellv1v2.step"
 			(offset
 				(xyz 65 0 0)
 			)
@@ -1971,7 +1971,7 @@
 			(uuid "adbc0788-7df2-4d10-b587-4b5a073642f1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"
+		(model "${KIPRJMOD}/SolarCellv1v2.step"
 			(offset
 				(xyz 65 0 0)
 			)
@@ -2084,6 +2084,7 @@
 		(property "Reference" "H2"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "68d3467c-e288-4711-8f5c-f8ebbb19e8ed")
 			(effects
 				(font
@@ -2867,7 +2868,7 @@
 			(uuid "7c941b18-6f38-4184-ab63-c515f7c8e7c3")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"
+		(model "${KIPRJMOD}/SolarCellv1v2.step"
 			(offset
 				(xyz 55 -46.75 0)
 			)
@@ -2889,6 +2890,7 @@
 		(property "Reference" "H13"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5ac29145-1aae-4005-83dc-cb02d7516b55")
 			(effects
 				(font
@@ -3967,7 +3969,7 @@
 			(uuid "dcc3c149-545b-4753-b882-3f7fff5ed0d7")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"
+		(model "${KIPRJMOD}/SolarCellv1v2.step"
 			(offset
 				(xyz 65 0 0)
 			)
@@ -4081,6 +4083,7 @@
 		(property "Reference" "H8"
 			(at -0.03 4.55 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "14f6f0fe-2689-4ce8-b0bb-23efaa3c5380")
 			(effects
 				(font
@@ -4172,6 +4175,7 @@
 		(property "Reference" "H4"
 			(at 3.07 3.53 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "dc76e5f8-a3dd-40bb-bd5d-e81d9f53e49b")
 			(effects
 				(font
@@ -4964,7 +4968,7 @@
 			(uuid "229f7dce-7cb9-40fb-ad67-87cfe404ec7f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"
+		(model "${KIPRJMOD}/SolarCellv1v2.step"
 			(offset
 				(xyz 55 -46.75 0)
 			)
@@ -5788,7 +5792,7 @@
 			(uuid "4d7b8702-a369-4765-859a-470a1446d39f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"
+		(model "${KIPRJMOD}/SolarCellv1v2.step"
 			(offset
 				(xyz 38.25 -26.25 0)
 			)
@@ -5810,6 +5814,7 @@
 		(property "Reference" "H6"
 			(at 0 4.38 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "03b8d057-e084-4f58-9346-2b3a52b85e14")
 			(effects
 				(font
@@ -6438,7 +6443,7 @@
 		(uuid "ec99e146-0a52-4bf2-b269-e167df4bb7c4")
 	)
 	(gr_text "+Y"
-		(at 171.45 -7.62 0)
+		(at 183.68 -13.67 0)
 		(layer "F.SilkS")
 		(uuid "2bbaf552-d723-41a8-92fb-7045ec5fa9c7")
 		(effects
@@ -6446,7 +6451,7 @@
 				(size 5 5)
 				(thickness 1)
 			)
-			(justify left bottom)
+			(justify right top)
 		)
 	)
 	(dimension

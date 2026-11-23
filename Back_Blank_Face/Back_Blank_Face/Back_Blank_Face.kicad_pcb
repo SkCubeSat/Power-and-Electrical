@@ -37,14 +37,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
-				(color "White")
+				(color "Black")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Black")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -65,7 +65,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Black")
+				(color "White")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -73,7 +73,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
-				(color "White")
+				(color "Black")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -94,6 +94,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -2653,7 +2654,7 @@
 			(uuid "94a5c7ef-1e85-4008-bb05-fb4ec12c4983")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.62 1.5 0)
+			(at 0.635 -2.44 0)
 			(layer "B.Fab")
 			(uuid "dd97a52b-ec58-4067-9ed0-0bd58ddc0157")
 			(effects
@@ -2688,7 +2689,7 @@
 			(uuid "5bbcc945-6437-4681-9aaf-6d9635a230db")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/front-panel/DF13-2P-1.25DSA.STEP"
+		(model "${KIPRJMOD}/DF13-2P-1.25DSA.STEP"
 			(offset
 				(xyz -15 -25 1.5)
 			)
@@ -2725,7 +2726,7 @@
 		(end 117.79 219.03)
 		(stroke
 			(width 0.25)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "b74864f3-1b6b-4a72-9df7-ae525afb563e")
@@ -2916,7 +2917,7 @@
 		(end 116.29 10.53)
 		(stroke
 			(width 0.25)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "cdd5f683-ddef-4a7f-8d4c-46d54b740245")
@@ -3129,7 +3130,7 @@
 		(end 90.79 -63.47)
 		(stroke
 			(width 0.25)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "1ac50e3b-c3b8-48a7-ab9f-95848bb2e215")
@@ -3311,69 +3312,28 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "Battery Charging \nPort"
-		(at 92.52 7.51 0)
-		(layer "F.SilkS")
-		(uuid "2d9de2eb-9402-4ffc-bdc9-7aeba708aaf8")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "UHF Antenna\nDeployment ARM"
-		(at 98.79 244.475 0)
-		(layer "F.SilkS")
-		(uuid "0e7df601-3609-4dda-b803-a53802d2a959")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "CAN Breakout"
-		(at 111.32 -3.49 0)
+	(gr_text "CAN\nBreakout"
+		(at 110.5 -11.3 0)
 		(layer "F.SilkS")
 		(uuid "81489fec-05e6-4ff3-9d75-b22341029bd5")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.4)
+				(size 1.5 1.5)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 	)
 	(gr_text "Solar Panel\nDeployment ARM"
-		(at 116.84 17.145 0)
+		(at 116.84 14.03 0)
 		(layer "F.SilkS")
 		(uuid "76a852c7-8e52-453a-aa2c-51d8dc178d1c")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.4)
+				(size 1.5 1.5)
 				(bold yes)
 			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "VHF Antenna\nDeployment ARM"
-		(at 149.48 -26.15 0)
-		(layer "F.SilkS")
-		(uuid "8cd5616f-9b69-45cc-b16b-dcfcc156e417")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
+			(justify left)
 		)
 	)
 	(gr_text "BTSEL"
@@ -3382,60 +3342,151 @@
 		(uuid "0abb72d1-4e79-4ca1-881e-1b0fe3b62a06")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.4)
+				(size 1.5 1.5)
 				(bold yes)
 			)
 			(justify bottom)
 		)
 	)
 	(gr_text "VHF"
-		(at 102.79 218.03 0)
+		(at 102.79 228.53 0)
 		(layer "F.SilkS")
 		(uuid "d8f0c47b-2801-4309-936e-4356132355b4")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.4)
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "UHF Antenna\nDeployment ARM"
+		(at 102.95 242.53 0)
+		(layer "F.SilkS")
+		(uuid "0e7df601-3609-4dda-b803-a53802d2a959")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Battery Charger"
+		(at 104.29 20 0)
+		(layer "F.SilkS")
+		(uuid "2d9de2eb-9402-4ffc-bdc9-7aeba708aaf8")
+		(effects
+			(font
+				(size 1.5 1.5)
 				(bold yes)
 			)
 			(justify bottom)
 		)
 	)
 	(gr_text "OBC UART0\nSerial"
-		(at 104.79 178.5 0)
+		(at 104.79 179 0)
 		(layer "F.SilkS")
 		(uuid "c391d1fc-43c9-4994-8f96-20caef773dca")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.4)
+				(size 1.5 1.5)
 				(bold yes)
 			)
 			(justify bottom)
 		)
 	)
 	(gr_text "StarRISC"
-		(at 106.805 26.67 0)
+		(at 106.805 27.67 0)
 		(layer "F.SilkS")
 		(uuid "4ed5af0e-d273-4e18-bf64-bc50b38bc27b")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.4)
+				(size 1.5 1.5)
 				(bold yes)
 			)
 			(justify bottom)
 		)
 	)
-	(gr_text "Debug"
-		(at 107.79 214.53 0)
+	(gr_text "Transceiver Debug"
+		(at 107.79 218.03 0)
 		(layer "F.SilkS")
 		(uuid "cacf4299-dafd-41fb-a5d9-013da84e823f")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.4)
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "UHF"
+		(at 112.79 228.53 0)
+		(layer "F.SilkS")
+		(uuid "c226fac2-d1a1-4a92-bdc3-e7842dbdee13")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "OBC Umbilical\nConnector"
+		(at 135.79 179 0)
+		(layer "F.SilkS")
+		(uuid "bdf57961-8df6-412b-8805-80a48b27ac1e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "5V USB\nCHARGE"
+		(at 156.21 218.03 0)
+		(layer "F.SilkS")
+		(uuid "a0e914b5-8dfc-46da-affd-981039db1e28")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "RBF Port"
+		(at 163.29 8.86 0)
+		(layer "F.SilkS")
+		(uuid "60b124f8-d6bd-4d42-8018-0af1fef99226")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "VHF Antenna\nDeployment ARM"
+		(at 164.79 -37.47 0)
+		(layer "F.SilkS")
+		(uuid "8cd5616f-9b69-45cc-b16b-dcfcc156e417")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "OBC SD\nBoot"
+		(at 166.79 179 0)
+		(layer "F.SilkS")
+		(uuid "abac9671-0b3f-45f4-a6cb-beed33afa029")
+		(effects
+			(font
+				(size 1.5 1.5)
 				(bold yes)
 			)
 			(justify bottom)
@@ -3447,80 +3498,15 @@
 		(uuid "9553e89e-508f-4206-8b07-39ae1e06c6c1")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "UHF"
-		(at 112.79 218.03 0)
-		(layer "F.SilkS")
-		(uuid "c226fac2-d1a1-4a92-bdc3-e7842dbdee13")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "OBC Umbilical\nConnector"
-		(at 135.79 178.5 0)
-		(layer "F.SilkS")
-		(uuid "bdf57961-8df6-412b-8805-80a48b27ac1e")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "5V USB\nCHARGE"
-		(at 156.21 217.805 0)
-		(layer "F.SilkS")
-		(uuid "a0e914b5-8dfc-46da-affd-981039db1e28")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "RBF Port"
-		(at 163.29 7.86 0)
-		(layer "F.SilkS")
-		(uuid "60b124f8-d6bd-4d42-8018-0af1fef99226")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "OBC SD\nBoot"
-		(at 166.79 178.5 0)
-		(layer "F.SilkS")
-		(uuid "abac9671-0b3f-45f4-a6cb-beed33afa029")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
+				(size 1.5 1.5)
+				(thickness 0.3)
 				(bold yes)
 			)
 			(justify bottom)
 		)
 	)
 	(gr_text "-Y"
-		(at 152.79 -53.47 0)
+		(at 167.79 -61.47 0)
 		(layer "F.SilkS")
 		(uuid "7a643188-a04a-4018-9110-900b5611cc5a")
 		(effects
@@ -3528,7 +3514,7 @@
 				(size 5 5)
 				(thickness 1)
 			)
-			(justify left bottom)
+			(justify right top)
 		)
 	)
 	(dimension
@@ -3722,22 +3708,6 @@
 		)
 	)
 	(segment
-		(start 105.63 -15.575)
-		(end 106.315 -16.26)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(J1-Pin_1)")
-		(uuid "75e77ef2-620a-4616-964e-6520bd207e8a")
-	)
-	(segment
-		(start 105.63 -9.925)
-		(end 105.63 -15.575)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(J1-Pin_1)")
-		(uuid "888b03fa-9ad0-4269-8253-3377d5ecdef2")
-	)
-	(segment
 		(start 108.17 -15.655)
 		(end 107.565 -16.26)
 		(width 0.2)
@@ -3768,6 +3738,22 @@
 		(layer "F.Cu")
 		(net "Net-(J1-Pin_2)")
 		(uuid "f3360fe9-ecfd-4866-9124-387874e0a6d9")
+	)
+	(segment
+		(start 105.63 -15.575)
+		(end 106.315 -16.26)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J1-Pin_1)")
+		(uuid "75e77ef2-620a-4616-964e-6520bd207e8a")
+	)
+	(segment
+		(start 105.63 -9.925)
+		(end 105.63 -15.575)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J1-Pin_1)")
+		(uuid "888b03fa-9ad0-4269-8253-3377d5ecdef2")
 	)
 	(embedded_fonts no)
 )

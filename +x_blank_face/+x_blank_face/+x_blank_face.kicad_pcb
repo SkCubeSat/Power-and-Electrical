@@ -94,7 +94,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -895,7 +894,7 @@
 			(uuid "e7dc052a-34a3-4fd1-9f50-1a6792ca03b0")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/-x_blank_face/-x_blank_face/models/UB3C-75RF1.stp"
+		(model "${KIPRJMOD}/UB3C-75RF1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1290,7 +1289,7 @@
 			(uuid "c55facd2-1638-4835-9dbe-edfe267e83bb")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/-x_blank_face/-x_blank_face/models/UB3C-75RF1.stp"
+		(model "${KIPRJMOD}/UB3C-75RF1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1788,7 +1787,7 @@
 			(uuid "8b123005-5670-4a78-8e2b-37fd494b3b21")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/-x_blank_face/-x_blank_face/models/UB3C-75RF1.stp"
+		(model "${KIPRJMOD}/UB3C-75RF1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2194,7 +2193,7 @@
 			(uuid "8a5fe7c1-66b2-41be-a4f5-4ec577aa90be")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/-x_blank_face/-x_blank_face/models/UB3C-75RF1.stp"
+		(model "${KIPRJMOD}/UB3C-75RF1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2312,7 +2311,7 @@
 		(uuid "5da7ee06-afc2-4aeb-98f3-9edf36b28793")
 		(at 190.98 21.73)
 		(property "Reference" "J1"
-			(at 0.505 -3.6 180)
+			(at 0 -3 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "5ba605bf-a2fa-4bec-9d21-4b4d5b9a9741")
@@ -2854,7 +2853,7 @@
 			(uuid "e2130b97-e2d9-42ae-bd5f-bf0174e0513b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hayla/Downloads/DF13-8P-1.25DSA(25)_CL0536-0107-5-25_3DDrawing_STEP_0001217332S/DF13-8P-1.25DSA.stp"
+		(model "${KIPRJMOD}/df13-8p-1_25dsa_25_.stp"
 			(offset
 				(xyz -11.55 -25.6 1.5)
 			)
@@ -2872,7 +2871,7 @@
 		(at 173.7 151.1 180)
 		(tags "DF13-2P-1.25DS20 ")
 		(property "Reference" "J2"
-			(at -0.625 0 0)
+			(at 4 0 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "6912123b-a1d7-4cbd-95f3-a04c9f7c770f")
@@ -3089,7 +3088,7 @@
 			(uuid "306ef696-fbcf-407a-8b68-a694a29abe06")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.625 0 0)
+			(at -0.7 1.85 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "2e7cd458-65c5-430b-85dd-96259577c734")
@@ -3142,10 +3141,10 @@
 		(at 174.3 -2.9 180)
 		(tags "DF13-2P-1.25DS20 ")
 		(property "Reference" "J3"
-			(at -0.625 0 0)
+			(at 4 0 0)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "a26cddfb-4288-4921-abff-18ef38d496b9")
+			(uuid "04fde9dd-98bf-4c3d-9fe8-1de0cbfaebab")
 			(effects
 				(font
 					(size 1 1)
@@ -3158,7 +3157,7 @@
 			(at -0.625 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "a36a8c2f-0c81-4438-8621-c9fa07dce865")
+			(uuid "88ee5bf4-6a09-40ce-82a6-04991e43b9e1")
 			(effects
 				(font
 					(size 1 1)
@@ -3171,7 +3170,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0ced9176-4eed-4589-bfeb-fd08e1bb07e6")
+			(uuid "699bf284-651a-4eca-b350-7093dece09d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3184,7 +3183,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d80d7130-f2ae-4f46-9b22-5cffc87ea393")
+			(uuid "54483d88-7496-47ce-a45e-1cec3a90704b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3661,7 @@
 		(uuid "becd8175-f05b-4956-be1e-8d9a4457cdb9")
 	)
 	(gr_text "+X"
-		(at 211.455 -24.765 0)
+		(at 229.51 -43.85 0)
 		(layer "F.SilkS")
 		(uuid "d68b8192-9911-4e9d-b6f0-f15157469951")
 		(effects
@@ -3670,7 +3669,7 @@
 				(size 5 5)
 				(thickness 1)
 			)
-			(justify left bottom)
+			(justify right top)
 		)
 	)
 	(gr_text "${REFERENCE}"
