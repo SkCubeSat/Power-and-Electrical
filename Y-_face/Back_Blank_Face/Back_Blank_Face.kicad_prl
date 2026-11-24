@@ -41,7 +41,6 @@
       "footprint_references",
       "tracks",
       "drc_errors",
-      "drawing_sheet",
       "bitmaps",
       "pads",
       "zones",
@@ -51,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_fffdffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -92,12 +91,12 @@
     "col_widths": [
       149,
       137,
+      113,
+      92,
       98,
-      79,
-      90,
-      99,
-      90,
-      83,
+      115,
+      100,
+      98,
       90,
       90
     ],

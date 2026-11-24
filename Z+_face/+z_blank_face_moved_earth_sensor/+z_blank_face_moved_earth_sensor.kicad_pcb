@@ -1323,22 +1323,11 @@
 		(layer "F.Cu")
 		(uuid "ba036a20-ec00-4519-8f67-e32eea20cc40")
 		(at 120 97.35 -90)
-		(property "Reference" "G***"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(uuid "086f2cca-fe34-4405-9f76-b6e069e7e926")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
 		(property "Value" "LOGO"
 			(at 0.75 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8663ceb0-fc40-4fef-a975-94f624f46335")
+			(uuid "b6747e25-5759-4f5f-9b6a-6f68f0df1f6a")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -1350,7 +1339,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6aa0abda-0bef-4828-9c5f-137f126df510")
+			(uuid "8603f18d-2292-4107-8e9f-7e6e347de152")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,10 +1350,21 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d247f4a9-549c-4168-82f9-6d15d3ef7091")
+			(uuid "ed34d906-e046-4720-8fc7-26cfa92aa5f8")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reference" "G***"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(uuid "568c575c-9ebd-49d6-9a01-7ea1a7c795ca")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
 				)
 			)
 		)
@@ -1572,6 +1572,12 @@
 			(fill yes)
 			(layer "F.SilkS")
 			(uuid "fce52c84-7530-4b1a-a3f9-c7005048de9d")
+		)
+		(point
+			(at 119.878616 97.45)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "aa34e912-7ab4-4fdf-a457-e459161fe73a")
 		)
 		(embedded_fonts no)
 	)

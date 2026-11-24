@@ -1,0 +1,16 @@
+{
+ "length_pct": 300.0,
+ "max_length_mm": 1.0,
+ "min_length_mm": 0.05,
+ "min_length_pct": 25.0,
+ "max_angle_deg": 120.0,
+ "min_fill_mm": 0.0254,
+ "curved": true,
+ "t_junctions": true,
+ "crossings": true,
+ "net": null,
+ "netclass": null,
+ "layer": null,
+ "exclude_nets": "",
+ "exclude_netclasses": []
+}

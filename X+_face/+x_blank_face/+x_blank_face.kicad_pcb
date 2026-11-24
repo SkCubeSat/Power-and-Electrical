@@ -3705,15 +3705,15 @@
 		(uuid "becd8175-f05b-4956-be1e-8d9a4457cdb9")
 	)
 	(gr_text "+X"
-		(at 229.51 -43.85 0)
+		(at 229.87 -41.91 0)
 		(layer "F.SilkS")
 		(uuid "d68b8192-9911-4e9d-b6f0-f15157469951")
 		(effects
 			(font
-				(size 5 5)
-				(thickness 1)
+				(size 2 2)
+				(thickness 0.5)
 			)
-			(justify right top)
+			(justify right)
 		)
 	)
 	(gr_text "${REFERENCE}"
