@@ -152,6 +152,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.45 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "63f86a65-d44e-4332-81f5-4a0a470d0675")
 			(effects
 				(font
@@ -212,17 +213,6 @@
 			(layer "F.CrtYd")
 			(uuid "6e3328ce-cbda-45a6-b5ed-59bed7dbe58d")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "52ff91d3-33e7-401c-a003-1bf88cc65ead")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at 0 0 90)
 			(size 2.5 2.5)
@@ -253,6 +243,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.45 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d55ba966-b983-49af-bc3a-a70acafc28b6")
 			(effects
 				(font
@@ -313,17 +304,6 @@
 			(layer "F.CrtYd")
 			(uuid "1e3ed3ba-255c-4726-ad95-e963fd43c444")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "9a1375fc-5967-4f3c-8e92-81cd2966f796")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at 0 0 90)
 			(size 2.5 2.5)
@@ -354,6 +334,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.45 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "33905806-9a42-4491-bf33-402f28e9dd66")
 			(effects
 				(font
@@ -414,17 +395,6 @@
 			(layer "F.CrtYd")
 			(uuid "498af6f1-f7c1-465b-8de6-8730e83a1a18")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "a82272da-4def-465d-beb0-296dc2fd5dd8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at 0 0 90)
 			(size 2.5 2.5)
@@ -444,7 +414,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2c11cf2c-42d4-4acc-a249-76b166a48df9")
+			(uuid "d4be84e3-a7d4-4296-bb55-0ed6ef1052f7")
 			(effects
 				(font
 					(size 1 1)
@@ -457,7 +427,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e53f079-ec91-443b-b186-af98d5216bb4")
+			(uuid "3da65630-d8c5-4049-bcab-98ed8915981f")
 			(effects
 				(font
 					(size 1 1)
@@ -470,7 +440,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "030346d6-f6b6-482a-8e97-ac90d4c49fa1")
+			(uuid "90363469-6539-4048-ab32-7f9eed43ff2a")
 			(effects
 				(font
 					(size 1 1)
@@ -483,7 +453,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96e42dd7-08e3-4672-9840-c032eabd6b81")
+			(uuid "1d12dc9a-b00d-456e-aa4c-edcd1e66a905")
 			(effects
 				(font
 					(size 1 1)
@@ -506,6 +476,16 @@
 			(fill yes)
 			(layer "F.Mask")
 			(uuid "e36f8d98-fa13-4e54-9121-2afd70a5c4e9")
+		)
+		(fp_line
+			(start -0.01 20.71)
+			(end -1.26 20.71)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e22320d6-fa82-410f-b72a-de661c4a4b84")
 		)
 		(fp_line
 			(start 14 0)
@@ -536,6 +516,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "8d2f104c-e80e-4552-9163-226e71a60f28")
+		)
+		(fp_line
+			(start -0.01 -0.06)
+			(end -1.26 -0.06)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5228949a-98d4-4739-9fac-9ab713f2bc9f")
 		)
 		(fp_line
 			(start 0 -14)
@@ -957,18 +947,6 @@
 			(layer "F.CrtYd")
 			(uuid "0d583a15-cce6-4f30-b487-f10547765738")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "e4458dfd-30a7-452b-9676-ce566d732b34")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(dimension
 			(type orthogonal)
 			(layer "Dwgs.User")
@@ -1096,8 +1074,8 @@
 			(uuid "680c23b3-9d69-4e5d-b92b-a2ab9191f951")
 		)
 		(pad "1" smd roundrect
-			(at -4.75 -74.6175 270)
-			(size 7.5 8.235)
+			(at -4.885 -74.6175 270)
+			(size 7.23 8.235)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1067235859)
 			(net "Net-(SC8--)")
@@ -1106,18 +1084,8 @@
 			(uuid "398b9499-75c6-4cf2-93d5-1585e63822ba")
 		)
 		(pad "1" smd rect
-			(at -4.75 -60.58 270)
-			(size 7.5 8.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(SC8--)")
-			(pinfunction "+")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "47f083ba-aaf6-452b-8cf1-ec3e08c31d82")
-		)
-		(pad "1" smd rect
-			(at -4.75 -40 270)
-			(size 7.5 8.3)
+			(at -4.88 -19.615 270)
+			(size 7.24 8.23)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SC8--)")
 			(pinfunction "+")
@@ -1126,8 +1094,18 @@
 			(uuid "10fc4275-ba5a-4419-9995-10ca3f08f1e2")
 		)
 		(pad "1" smd rect
-			(at -4.75 -19.615 270)
-			(size 7.5 8.23)
+			(at -4.875 -40 270)
+			(size 7.25 8.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(SC8--)")
+			(pinfunction "+")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "47f083ba-aaf6-452b-8cf1-ec3e08c31d82")
+		)
+		(pad "1" smd rect
+			(at -4.87 -60.58 270)
+			(size 7.26 8.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SC8--)")
 			(pinfunction "+")
@@ -1146,7 +1124,7 @@
 			(uuid "0a494415-10ba-46ff-ae2f-5b83a6493f10")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/SolarCellv1v2.step"
+		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"
 			(offset
 				(xyz 65 0 0)
 			)
@@ -1179,6 +1157,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "06648e05-550f-4eab-b12d-39e876e19362")
 			(effects
 				(font
@@ -1239,17 +1218,6 @@
 			(layer "F.CrtYd")
 			(uuid "a6451d54-4473-4172-9ebd-486a9d8de75a")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "faf79655-aabc-404c-91be-3eb537185981")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.5 2.5)
@@ -1269,7 +1237,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8f2aeb61-fbab-4332-a644-00948c3151dd")
+			(uuid "8133ebd5-f5f0-4d51-8150-8a8dbefa6f42")
 			(effects
 				(font
 					(size 1 1)
@@ -1282,7 +1250,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cdcf4265-bf1c-4bd1-a2cc-12f2ebc8f741")
+			(uuid "ac92a281-91f0-4beb-aacd-83b75aedff12")
 			(effects
 				(font
 					(size 1 1)
@@ -1295,7 +1263,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "daa6c2e9-2cd6-4c56-9987-e435f976bee2")
+			(uuid "b2fa040e-6dee-49d6-a923-3027947bea75")
 			(effects
 				(font
 					(size 1 1)
@@ -1308,7 +1276,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52c3ec95-a437-44f4-bb79-65ac682de850")
+			(uuid "20ed0bc1-87aa-4d20-915f-b6ccec9c433f")
 			(effects
 				(font
 					(size 1 1)
@@ -1331,6 +1299,16 @@
 			(fill yes)
 			(layer "F.Mask")
 			(uuid "f6a15502-8489-48cd-8e3e-1b4455b1ae94")
+		)
+		(fp_line
+			(start -0.01 20.71)
+			(end -1.26 20.71)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e3623d79-32c6-43e6-8068-dd642ace797a")
 		)
 		(fp_line
 			(start 14 0)
@@ -1361,6 +1339,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "a6bb72e5-51dc-4d1e-a2fe-459a84370fcb")
+		)
+		(fp_line
+			(start -0.01 -0.06)
+			(end -1.26 -0.06)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "72222580-4357-46ce-8929-fa35ef421d61")
 		)
 		(fp_line
 			(start 0 -14)
@@ -1782,18 +1770,6 @@
 			(layer "F.CrtYd")
 			(uuid "bb77b71f-1ac0-4ce1-b43a-8b41bb6f21b9")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "a96e3ef9-fb0c-43fd-b50a-2f6b685edf7e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(dimension
 			(type orthogonal)
 			(layer "Dwgs.User")
@@ -1921,8 +1897,8 @@
 			(uuid "38d88280-bbfc-4021-9f94-4ae893f3423e")
 		)
 		(pad "1" smd roundrect
-			(at -4.75 -74.6175 270)
-			(size 7.5 8.235)
+			(at -4.885 -74.6175 270)
+			(size 7.23 8.235)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1067235859)
 			(net "Net-(SC14--)")
@@ -1931,18 +1907,18 @@
 			(uuid "cc2e85db-6d2c-42b8-be9d-e2a6918d9768")
 		)
 		(pad "1" smd rect
-			(at -4.75 -60.58 270)
-			(size 7.5 8.3)
+			(at -4.88 -19.615 270)
+			(size 7.24 8.23)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SC14--)")
 			(pinfunction "+")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "168f0f97-20fa-4486-8752-808ae87e4168")
+			(uuid "37363629-a708-4b4a-b8ea-5e3bbf382a17")
 		)
 		(pad "1" smd rect
-			(at -4.75 -40 270)
-			(size 7.5 8.3)
+			(at -4.875 -40 270)
+			(size 7.25 8.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SC14--)")
 			(pinfunction "+")
@@ -1951,14 +1927,14 @@
 			(uuid "8cf524cc-a3ce-40cc-bc7c-34cd00d18edc")
 		)
 		(pad "1" smd rect
-			(at -4.75 -19.615 270)
-			(size 7.5 8.23)
+			(at -4.87 -60.58 270)
+			(size 7.26 8.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SC14--)")
 			(pinfunction "+")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "37363629-a708-4b4a-b8ea-5e3bbf382a17")
+			(uuid "168f0f97-20fa-4486-8752-808ae87e4168")
 		)
 		(pad "2" smd roundrect
 			(at 19.815 -41.715 270)
@@ -1971,7 +1947,7 @@
 			(uuid "adbc0788-7df2-4d10-b587-4b5a073642f1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/SolarCellv1v2.step"
+		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"
 			(offset
 				(xyz 65 0 0)
 			)
@@ -2886,7 +2862,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2e050054-e4c1-494c-b7f6-8f55c0ca9858")
+			(uuid "4c328886-b429-4fbf-ae02-1bd75331e481")
 			(effects
 				(font
 					(size 1 1)
@@ -2899,7 +2875,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "611bc3b9-8555-4b66-81d7-6eaece78d58f")
+			(uuid "afe5ea93-731a-4e53-9ecc-0fbf6f128293")
 			(effects
 				(font
 					(size 1 1)
@@ -2912,7 +2888,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3bff8af-c153-4250-99b4-fe0a2b2732fe")
+			(uuid "02241681-4dd9-4279-8485-7ee19f452aaf")
 			(effects
 				(font
 					(size 1 1)
@@ -2925,7 +2901,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb95e5eb-9c2e-476c-818d-a374553335a3")
+			(uuid "7fd6d4ca-0cab-4d32-b649-b6919950fa23")
 			(effects
 				(font
 					(size 1 1)
@@ -3399,30 +3375,6 @@
 			(layer "F.CrtYd")
 			(uuid "0e752f8d-4280-4e2c-bc5a-e4b04e0eaab1")
 		)
-		(fp_text user "${REFERENCE}"
-			(at -9.93 49.28 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "5109e0d4-3be6-4d0c-9f59-5968280c23e0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "9ca0a376-fe88-43e1-aa36-5dc6cce50ec9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" smd rect
 			(at -2.8425 -0.21)
 			(size 65.84 13.995)
@@ -3436,18 +3388,8 @@
 			(uuid "ae13af86-85ec-47f2-9b7d-dc969cf1caa5")
 		)
 		(pad "1" smd rect
-			(at -14.68 -13.8 270)
-			(size 7.5 8.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(SC10--)")
-			(pinfunction "+")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "3960619e-c79a-42cb-b041-ed041ae51061")
-		)
-		(pad "1" smd rect
-			(at -14.68 6.78 270)
-			(size 7.5 8.3)
+			(at -14.819973 -14.011733 270)
+			(size 7.219946 9.387478)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SC10--)")
 			(pinfunction "+")
@@ -3456,8 +3398,8 @@
 			(uuid "a4621e53-c92c-49be-ad02-21f432a12976")
 		)
 		(pad "1" smd rect
-			(at -14.68 27.165 270)
-			(size 7.5 8.23)
+			(at -14.814992 6.504099 270)
+			(size 7.229984 9.420184)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SC10--)")
 			(pinfunction "+")
@@ -3466,14 +3408,24 @@
 			(uuid "c8bb868a-9b85-4e24-ba48-b2f34a7701eb")
 		)
 		(pad "1" smd roundrect
-			(at -14.645 -26.99375 270)
-			(size 7.57 7.1875)
+			(at -14.805 -26.99375 270)
+			(size 7.25 7.1875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1067235859)
 			(net "Net-(SC10--)")
 			(pinfunction "+")
 			(pintype "passive")
 			(uuid "0a184812-894e-4633-9b13-a0f7b57c1b54")
+		)
+		(pad "1" smd rect
+			(at -14.804987 26.970377 270)
+			(size 7.249974 9.342488)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(SC10--)")
+			(pinfunction "+")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "3960619e-c79a-42cb-b041-ed041ae51061")
 		)
 		(pad "2" smd roundrect
 			(at 9.885 5.065 270)
@@ -3486,7 +3438,7 @@
 			(uuid "7c941b18-6f38-4184-ab63-c515f7c8e7c3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/SolarCellv1v2.step"
+		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"
 			(offset
 				(xyz 55 -46.75 0)
 			)
@@ -3703,6 +3655,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ad9c931e-dd10-4db6-a640-52f515ec96c0")
 			(effects
 				(font
@@ -3949,6 +3902,16 @@
 			(uuid "04bb7899-b09e-4ae5-aa22-bf233f913ebf")
 		)
 		(fp_line
+			(start -0.01 20.71)
+			(end -1.26 20.71)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8e533456-1a72-4a0d-a4bb-fd99af2aa1ac")
+		)
+		(fp_line
 			(start 14 0)
 			(end 40 0)
 			(stroke
@@ -3977,6 +3940,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "b8496283-1567-4410-bb82-4c33b00b42b6")
+		)
+		(fp_line
+			(start -0.01 -0.06)
+			(end -1.26 -0.06)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "4c625e75-3b29-4edb-bd4c-ae3bde0c7419")
 		)
 		(fp_line
 			(start 0 -14)
@@ -4398,18 +4371,6 @@
 			(layer "F.CrtYd")
 			(uuid "24374624-77f3-4345-ab54-d42e5613eb79")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "dbb7e9f1-4973-44ac-b256-e73711d116d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(dimension
 			(type orthogonal)
 			(layer "Dwgs.User")
@@ -4537,8 +4498,8 @@
 			(uuid "2c630a48-3b31-412c-9cc5-03f505185635")
 		)
 		(pad "1" smd roundrect
-			(at -4.75 -74.6175 270)
-			(size 7.5 8.235)
+			(at -4.885 -74.6175 270)
+			(size 7.23 8.235)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1067235859)
 			(net "Net-(SC10-+)")
@@ -4547,8 +4508,8 @@
 			(uuid "6b78ee62-cf33-4987-a35e-708bc52900d3")
 		)
 		(pad "1" smd rect
-			(at -4.75 -60.58 270)
-			(size 7.5 8.3)
+			(at -4.88 -19.615 270)
+			(size 7.24 8.23)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SC10-+)")
 			(pinfunction "+")
@@ -4557,24 +4518,24 @@
 			(uuid "58f0b486-a51a-4e0a-9bf6-e494af3df49d")
 		)
 		(pad "1" smd rect
-			(at -4.75 -40 270)
-			(size 7.5 8.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(SC10-+)")
-			(pinfunction "+")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "a0a3ac5c-64b1-4f9e-8687-fc3d17c0c320")
-		)
-		(pad "1" smd rect
-			(at -4.75 -19.615 270)
-			(size 7.5 8.23)
+			(at -4.875 -40 270)
+			(size 7.25 8.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SC10-+)")
 			(pinfunction "+")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
 			(uuid "bc629c1d-5322-47b1-ba34-b153034ad400")
+		)
+		(pad "1" smd rect
+			(at -4.87 -60.58 270)
+			(size 7.26 8.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(SC10-+)")
+			(pinfunction "+")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "a0a3ac5c-64b1-4f9e-8687-fc3d17c0c320")
 		)
 		(pad "2" smd roundrect
 			(at 19.815 -41.715 270)
@@ -4587,7 +4548,7 @@
 			(uuid "dcc3c149-545b-4753-b882-3f7fff5ed0d7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/SolarCellv1v2.step"
+		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"
 			(offset
 				(xyz 65 0 0)
 			)
@@ -4896,6 +4857,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.45 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "56d9308a-5cbb-44f9-ac09-c3984662b43b")
 			(effects
 				(font
@@ -4956,17 +4918,6 @@
 			(layer "F.CrtYd")
 			(uuid "88322932-43d2-4e7e-b5af-434ecba2cb1d")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "f5eb8858-aabb-4080-8b8a-30632dbb5800")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at 0 0 90)
 			(size 2.5 2.5)
@@ -4986,7 +4937,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8fa29d2d-3e28-4d81-b5fe-37c4473418bf")
+			(uuid "03f7f1a9-f102-466b-b512-48011bb0224b")
 			(effects
 				(font
 					(size 1 1)
@@ -4999,7 +4950,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80df8794-9b47-4506-a421-0fb416fa8bef")
+			(uuid "ffddc3b9-56d7-4465-95d2-c31acac9169b")
 			(effects
 				(font
 					(size 1 1)
@@ -5012,7 +4963,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "88fa1d85-e947-45e5-b3a0-a1a794bd9c16")
+			(uuid "950255d1-787f-44a7-8ad7-af98a584ca63")
 			(effects
 				(font
 					(size 1 1)
@@ -5025,7 +4976,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ce94899-589a-47c5-871f-3e3d2cf0bde2")
+			(uuid "b89898ba-a05b-475f-82ce-61638ad5cb21")
 			(effects
 				(font
 					(size 1 1)
@@ -5499,30 +5450,6 @@
 			(layer "F.CrtYd")
 			(uuid "3735452b-ef3d-47f5-8548-126ebf575723")
 		)
-		(fp_text user "${REFERENCE}"
-			(at -9.93 49.28 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "5946a7d5-0564-4d8c-afae-bbd113574d9e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "4e7c6136-b029-498c-95d1-aaac694d3582")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" smd rect
 			(at -2.8425 -0.21)
 			(size 65.84 13.995)
@@ -5536,18 +5463,8 @@
 			(uuid "b2a5ff86-703e-4033-b494-596aa8dd9f1b")
 		)
 		(pad "1" smd rect
-			(at -14.706512 26.970377 270)
-			(size 7.446924 9.342489)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(SC7--)")
-			(pinfunction "+")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "0eb5a20c-368b-4ac2-b2af-c6a8b65bdc6e")
-		)
-		(pad "1" smd rect
-			(at -14.666837 -14.011733 270)
-			(size 7.526221 9.387478)
+			(at -14.819973 -14.011733 270)
+			(size 7.219946 9.387478)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SC7--)")
 			(pinfunction "+")
@@ -5555,9 +5472,19 @@
 			(thermal_bridge_angle 45)
 			(uuid "de2e6b77-9d1b-416d-9bc0-79863545d454")
 		)
+		(pad "1" smd rect
+			(at -14.814992 6.504099 270)
+			(size 7.229984 9.420184)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(SC7--)")
+			(pinfunction "+")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "0eb5a20c-368b-4ac2-b2af-c6a8b65bdc6e")
+		)
 		(pad "1" smd roundrect
-			(at -14.645 -26.99375 270)
-			(size 7.57 7.1875)
+			(at -14.805 -26.99375 270)
+			(size 7.25 7.1875)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1067235859)
 			(net "Net-(SC7--)")
@@ -5566,8 +5493,8 @@
 			(uuid "093a1272-7320-4bfc-bffb-86b38b3e8146")
 		)
 		(pad "1" smd rect
-			(at -14.637566 6.504099 270)
-			(size 7.584842 9.420184)
+			(at -14.804987 26.970377 270)
+			(size 7.249974 9.342488)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SC7--)")
 			(pinfunction "+")
@@ -5586,7 +5513,7 @@
 			(uuid "229f7dce-7cb9-40fb-ad67-87cfe404ec7f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/SolarCellv1v2.step"
+		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"
 			(offset
 				(xyz 55 -46.75 0)
 			)
@@ -5863,6 +5790,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e8a2d257-7727-4a1c-b453-761ca63f2ba6")
 			(effects
 				(font
@@ -5964,6 +5892,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e956c798-72a5-4b48-8f3e-f7b6e9ca1191")
 			(effects
 				(font
@@ -6023,17 +5952,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "e52f00b7-6bb6-4139-8ada-7f7066ff6f68")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "38e4938e-3b93-4622-8dda-56c7da352826")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -6567,30 +6485,6 @@
 			(layer "F.CrtYd")
 			(uuid "e180f4c2-c849-4ca1-a080-c8a1ec3faecb")
 		)
-		(fp_text user "${REFERENCE}"
-			(at -26.74 28.67 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "8b4369e3-dda0-4593-977c-108600107adf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "81a298e8-274d-498a-9126-b043bc9b7d62")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" smd rect
 			(at -19.6575 -20.815)
 			(size 65.84 13.995)
@@ -6604,8 +6498,8 @@
 			(uuid "06d584fa-f372-4735-8a5b-e4cddc7283ea")
 		)
 		(pad "1" smd rect
-			(at -31.326503 -14.097615 270)
-			(size 6.626976 9.475231)
+			(at -31.369995 6.42 270)
+			(size 6.73999 9.52)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(Buck2-BCR+)")
 			(pinfunction "+")
@@ -6613,19 +6507,9 @@
 			(thermal_bridge_angle 45)
 			(uuid "e3d985a9-3a9a-4b4a-82d9-fc74743115a8")
 		)
-		(pad "1" smd rect
-			(at -31.244162 6.429731 270)
-			(size 6.991656 9.539462)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(Buck2-BCR+)")
-			(pinfunction "+")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "615c2ad3-ad70-4be1-b03c-08db7fb83e22")
-		)
 		(pad "1" smd roundrect
-			(at -31.21 -48.5425 270)
-			(size 6.94 8.045)
+			(at -31.34 -48.5425 270)
+			(size 6.68 8.045)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1067235859)
 			(net "Net-(Buck2-BCR+)")
@@ -6634,8 +6518,18 @@
 			(uuid "eea6741a-58f6-4fd6-a445-6119917d4341")
 		)
 		(pad "1" smd rect
-			(at -31.178842 -34.573155 270)
-			(size 6.76224 9.213161)
+			(at -31.329995 -14.097615 270)
+			(size 6.61999 9.47523)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(Buck2-BCR+)")
+			(pinfunction "+")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "615c2ad3-ad70-4be1-b03c-08db7fb83e22")
+		)
+		(pad "1" smd rect
+			(at -31.279981 -34.573155 270)
+			(size 6.559962 9.21316)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(Buck2-BCR+)")
 			(pinfunction "+")
@@ -6654,7 +6548,7 @@
 			(uuid "4d7b8702-a369-4765-859a-470a1446d39f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/SolarCellv1v2.step"
+		(model "C:/Users/hayla/OneDrive/Documents/PowerAndElectrical/Solar_Panels/SolarCellv1v2.step"
 			(offset
 				(xyz 38.25 -26.25 0)
 			)
@@ -6768,7 +6662,7 @@
 			(at 0.62 3.4 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "7de6a67a-3bae-436d-a598-7c8c09a1bda2")
+			(uuid "23fae0ea-932f-4833-882d-235a549b6b60")
 			(effects
 				(font
 					(size 1 1)
@@ -6780,7 +6674,8 @@
 		(property "Value" "~"
 			(at 0.62 -2.4 0)
 			(layer "B.Fab")
-			(uuid "f414dccb-aab5-42b9-a193-a3bc623a5ee8")
+			(hide yes)
+			(uuid "bd228c10-b9a9-4306-9519-54a581630c4d")
 			(effects
 				(font
 					(size 1 1)
@@ -6793,7 +6688,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b532f73a-d5c8-472a-9983-9dc763680ea9")
+			(uuid "6d2990d8-f4ef-4b42-b59e-8e7c19a0cfab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +6700,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a6488cd7-5ba0-4e7c-a39b-73d6892ff430")
+			(uuid "ca516abc-2d5f-4d8d-9f6a-c4c9291ad707")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,42 +6978,6 @@
 			(fill no)
 			(layer "B.Fab")
 			(uuid "4f1e4c8e-e0aa-444b-9081-0b6ad344aeae")
-		)
-		(fp_text user "KEEPOUT"
-			(at -5.82 -8.585 90)
-			(layer "Cmts.User")
-			(uuid "4504aa3f-337f-4df6-b001-ce2e149fc0ed")
-			(effects
-				(font
-					(size 0.34 0.34)
-					(thickness 0.051)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0.62 1.5 0)
-			(layer "B.Fab")
-			(uuid "479ea630-de0e-496f-95ba-b134a02b2aa1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "ec4a2339-0f3e-452d-a66d-d24a07930af0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 180)

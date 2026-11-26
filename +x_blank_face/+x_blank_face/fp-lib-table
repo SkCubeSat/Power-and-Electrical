@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CNN_GNSS_Footprint")(type "KiCad")(uri "${KIPRJMOD}/CNN_GNSS_Footprint.pretty")(options "")(descr ""))
+)

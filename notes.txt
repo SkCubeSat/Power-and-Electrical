@@ -1,0 +1,22 @@
+Mag hall effect: https://www.digikey.ca/en/products/detail/allegro-microsystems/A1325LLHLT-T/2639990
+
+
+Temp sensor: https://www.digikey.ca/en/products/detail/texas-instruments/LMT87DCKT/3974444?s=N4IgTCBcDaIDIFkAqAOA7AEQMIGkkgF0BfIA
+
+
+ADC: https://www.digikey.ca/en/products/detail/microchip-technology/MCP3008T-I-SL/319424
+
+
+Solar Cells: XTJPrime
+
+
+Sun Sensor: https://www.digikey.com/en/products/detail/advanced-photonix/PDB-C160SM/3694494
+
+
+
+
+
+
+
+
+

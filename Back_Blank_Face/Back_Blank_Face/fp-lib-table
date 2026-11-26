@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Small_Mounting_Holes")(type "KiCad")(uri "${KIPRJMOD}/Small_Mounting_Holes.pretty")(options "")(descr ""))
+)
