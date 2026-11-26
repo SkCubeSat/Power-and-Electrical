@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 8.06,
-          "width": 6.82
+          "drill": 2.7,
+          "height": 2.7,
+          "width": 2.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -676,7 +676,7 @@
       {
         "filename": "front-panel.kicad_sch",
         "name": "front-panel",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c"
       }
     ],
     "used_designators": "",
@@ -685,7 +685,7 @@
   "sheets": [
     [
       "0e069d2e-7f5b-4fc6-83f3-2f98d2eb159c",
-      "Root"
+      "front-panel"
     ]
   ],
   "text_variables": {},
